@@ -37,3 +37,13 @@ bus.
 
 For more details consult the comments in the various CMake files—they narrate
 what each step is doing in plain language.
+
+### Network detection overrides
+
+The safeguards automatically ping `msftconnecttest.com` to decide whether the
+machine is online before attempting any installs.  Some corporate firewalls or
+metered connections block that probe, which unintentionally forces vcpkg into
+offline mode.  If you know that outbound access is actually available, configure
+with `-DLUMI_NET_FORCE_ONLINE=ON` (or set the cache entry in Visual Studio) to
+skip the reachability check and allow vcpkg to fetch dependencies.  This option
+overrides `LUMI_NET_ASSUME_OFFLINE` when both are provided.
