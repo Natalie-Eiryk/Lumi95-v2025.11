@@ -87,27 +87,53 @@ function(lumi_bootstrap_vcpkg)
   endif()
 
   if(NOT _manifest_baseline STREQUAL "")
-    execute_process(
+   set(_have_net TRUE)
+    if(DEFINED LUMI_NET_ONLINE)
+      set(_have_net ${LUMI_NET_ONLINE})
+    endif()  
+  execute_process(
       COMMAND git -C "${_vcpkg_root}" cat-file -e "${_manifest_baseline}^{commit}"
       RESULT_VARIABLE _baseline_present_ec
       ERROR_QUIET
     )
     if(NOT _baseline_present_ec EQUAL 0)
-      message(STATUS "[Lumi][vcpkg] Manifest baseline ${_manifest_baseline} missing locally; fetching origin to update registry")
-      execute_process(
-        COMMAND git -C "${_vcpkg_root}" fetch origin --tags --force
-        RESULT_VARIABLE _baseline_fetch_ec
-      )
-      if(NOT _baseline_fetch_ec EQUAL 0)
-        message(WARNING "[Lumi][vcpkg] Failed to fetch baseline ${_manifest_baseline} (git rc=${_baseline_fetch_ec}). You may need to run 'git -C ${_vcpkg_root} fetch origin ${_manifest_baseline}' manually.")
+       if(NOT _have_net)
+        message(WARNING "[Lumi][vcpkg] Baseline ${_manifest_baseline} missing locally but network is offline; installs may fail until you can fetch the registry.")
       else()
+       message(STATUS "[Lumi][vcpkg] Manifest baseline ${_manifest_baseline} missing locally; fetching origin to update registry")
         execute_process(
-          COMMAND git -C "${_vcpkg_root}" cat-file -e "${_manifest_baseline}^{commit}"
-          RESULT_VARIABLE _baseline_present_ec
-          ERROR_QUIET
+         COMMAND git -C "${_vcpkg_root}" fetch origin --tags --force
+          RESULT_VARIABLE _baseline_fetch_ec
+          ERROR_VARIABLE _baseline_fetch_err
+
         )
-        if(NOT _baseline_present_ec EQUAL 0)
-          message(WARNING "[Lumi][vcpkg] Baseline ${_manifest_baseline} is still unavailable after fetching; installs may fail until the registry is updated.")
+            if(NOT _baseline_fetch_ec EQUAL 0)
+          message(WARNING "[Lumi][vcpkg] Failed to fetch baseline ${_manifest_baseline} (git rc=${_baseline_fetch_ec}). You may need to run 'git -C ${_vcpkg_root} fetch origin ${_manifest_baseline}' manually.\n${_baseline_fetch_err}")
+        else()
+          execute_process(
+            COMMAND git -C "${_vcpkg_root}" cat-file -e "${_manifest_baseline}^{commit}"
+            RESULT_VARIABLE _baseline_present_ec
+            ERROR_QUIET
+          )
+          if(NOT _baseline_present_ec EQUAL 0)
+            execute_process(
+              COMMAND git -C "${_vcpkg_root}" fetch origin ${_manifest_baseline}
+              RESULT_VARIABLE _baseline_fetch_specific_ec
+              ERROR_VARIABLE _baseline_fetch_specific_err
+            )
+            if(_baseline_fetch_specific_ec EQUAL 0)
+              execute_process(
+                COMMAND git -C "${_vcpkg_root}" cat-file -e "${_manifest_baseline}^{commit}"
+                RESULT_VARIABLE _baseline_present_ec
+                ERROR_QUIET
+              )
+            else()
+              message(WARNING "[Lumi][vcpkg] Baseline fetch for ${_manifest_baseline} failed (git rc=${_baseline_fetch_specific_ec}).\n${_baseline_fetch_specific_err}")
+            endif()
+            if(NOT _baseline_present_ec EQUAL 0)
+              message(WARNING "[Lumi][vcpkg] Baseline ${_manifest_baseline} is still unavailable after fetching; installs may fail until the registry is updated.")
+            endif()
+          endif()
         endif()
       endif()
     endif()
@@ -166,7 +192,7 @@ function(lumi_bootstrap_vcpkg)
   endif()
 
   if(_do_install AND EXISTS "${CMAKE_SOURCE_DIR}/vcpkg.json")
-    message(STATUS "[Lumi][vcpkg] Installing manifest dependencies for ${VCPKG_TARGET_TRIPLET} …")
+     message(STATUS "[Lumi][vcpkg] Installing manifest dependencies for ${VCPKG_TARGET_TRIPLET} ...")
     if(WIN32)
       set(_vcpkg_bin "${_vcpkg_root}/vcpkg.exe")
     else()
