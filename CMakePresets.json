@@ -1,0 +1,39 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 25
+  },
+  "configurePresets": [
+    {
+      "name": "lumi-first-time",
+      "displayName": "Lumi • First-Time Setup (auto-install allowed)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/cmake/vcpkg--bootstrap-toolchain.cmake",
+        "VCPKG_FEATURE_FLAGS": "manifests,versions",
+        "VCPKG_TARGET_TRIPLET": "x64-windows",
+        "LUMI_AUTO_INSTALL": "ON",
+        "LUMI_NET_ASSUME_OFFLINE": "OFF",
+        "CMAKE_CUDA_ARCHITECTURES": "86;89"
+      }
+    },
+    {
+      "name": "lumi-strict-offline",
+      "displayName": "Lumi • Strict / Offline (no installs)",
+      "inherits": "lumi-first-time",
+      "binaryDir": "${sourceDir}/out/build/${presetName}",
+      "cacheVariables": {
+        "LUMI_AUTO_INSTALL": "OFF",
+        "LUMI_NET_ASSUME_OFFLINE": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "default",
+      "configurePreset": "lumi-first-time"
+    }
+  ]
+}

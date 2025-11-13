@@ -1,0 +1,32 @@
+<#
+.SYNOPSIS
+  Remove Qt private headers and empty config stubs from current tree.
+.DESCRIPTION
+  Deletes:
+    • Files ending in -config.h  (empty Qt config headers)
+    • Files ending in _p.h        (Qt private headers)
+    • Directories named 'private'
+#>
+
+# Regex to match files to delete
+$pattern = '(-config\.h|_p\.h)$'
+
+Write-Host "▶ Deleting files matching $pattern ..." -ForegroundColor Cyan
+
+Get-ChildItem -Path . -Recurse -File |
+  Where-Object { $_.Name -match $pattern } |
+  ForEach-Object {
+    Write-Host "  • Removing file: $($_.FullName)"
+    Remove-Item $_.FullName -Force
+  }
+
+Write-Host "▶ Deleting directories named 'private' ..." -ForegroundColor Cyan
+
+Get-ChildItem -Path . -Recurse -Directory |
+  Where-Object { $_.Name -ieq 'private' } |
+  ForEach-Object {
+    Write-Host "  • Removing directory: $($_.FullName)"
+    Remove-Item $_.FullName -Recurse -Force
+  }
+
+Write-Host "✅ Cleanup complete." -ForegroundColor Green
