@@ -197,7 +197,7 @@ function(lumi_py_resolve VERHINT OUT_EXE OUT_VENV)
   # Track managed versions
   set(_list "${LUMI_PY_MANAGED_VERSIONS}")
   list(APPEND _list "${_ver}")
-  list(REMOVE_DUPLICLES _list)
+  list(REMOVE_DUPLICATES _list)
   set(LUMI_PY_MANAGED_VERSIONS "${_list}" CACHE STRING "Managed Python versions" FORCE)
 
   set(${OUT_EXE}  "${_pybin}" PARENT_SCOPE)
