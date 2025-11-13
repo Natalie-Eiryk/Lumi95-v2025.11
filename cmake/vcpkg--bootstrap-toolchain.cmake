@@ -86,19 +86,21 @@ function(lumi_bootstrap_vcpkg)
     endif()
   endif()
 
+ set(_skip_install_due_baseline OFF)
   if(NOT _manifest_baseline STREQUAL "")
-   set(_have_net TRUE)
+    set(_have_net TRUE)
     if(DEFINED LUMI_NET_ONLINE)
       set(_have_net ${LUMI_NET_ONLINE})
-    endif()  
-  execute_process(
+    endif()
+    execute_process(
       COMMAND git -C "${_vcpkg_root}" cat-file -e "${_manifest_baseline}^{commit}"
       RESULT_VARIABLE _baseline_present_ec
       ERROR_QUIET
     )
     if(NOT _baseline_present_ec EQUAL 0)
-       if(NOT _have_net)
+      if(NOT _have_net)
         message(WARNING "[Lumi][vcpkg] Baseline ${_manifest_baseline} missing locally but network is offline; installs may fail until you can fetch the registry.")
+        set(_skip_install_due_baseline ON)
       else()
        message(STATUS "[Lumi][vcpkg] Manifest baseline ${_manifest_baseline} missing locally; fetching origin to update registry")
         execute_process(
@@ -191,7 +193,9 @@ function(lumi_bootstrap_vcpkg)
     endif()
   endif()
 
-  if(_do_install AND EXISTS "${CMAKE_SOURCE_DIR}/vcpkg.json")
+  if(_skip_install_due_baseline)
+    message(WARNING "[Lumi][vcpkg] Skipping vcpkg install step because required baseline ${_manifest_baseline} is unavailable offline. Packages already installed will be reused, but you must run 'git -C ${_vcpkg_root} fetch origin ${_manifest_baseline}' once network access is restored.")
+  elseif(_do_install AND EXISTS "${CMAKE_SOURCE_DIR}/vcpkg.json")
      message(STATUS "[Lumi][vcpkg] Installing manifest dependencies for ${VCPKG_TARGET_TRIPLET} ...")
     if(WIN32)
       set(_vcpkg_bin "${_vcpkg_root}/vcpkg.exe")
