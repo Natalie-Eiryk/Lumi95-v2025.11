@@ -22,7 +22,8 @@ find_program(VSWHERE_EXE NAMES vswhere
 
   execute_process(
     COMMAND "${VSWHERE_EXE}" -latest -products * -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationPath
-    OUTPUT_VARIABLE _vs OUT_STRIP_TRAILING_WHITESPACE
+    OUTPUT_VARIABLE _vs
+    OUTPUT_STRIP_TRAILING_WHITESPACE
   )
   if(_vs)
     lumi_sg_log("VS found at: ${_vs}")
