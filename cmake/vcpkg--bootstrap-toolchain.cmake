@@ -48,13 +48,33 @@ function(lumi_bootstrap_vcpkg)
       COMMAND ${CMAKE_COMMAND} -E make_directory "${_vcpkg_root}"
     )
     execute_process(
-      COMMAND git clone --depth 1 https://github.com/microsoft/vcpkg.git "${_vcpkg_root}"
+        COMMAND git clone https://github.com/microsoft/vcpkg.git "${_vcpkg_root}"
       RESULT_VARIABLE _clone_ec
     )
     if(NOT _clone_ec EQUAL 0)
       message(FATAL_ERROR "[Lumi][vcpkg] git clone failed (${_clone_ec})")
     endif()
   endif()
+
+   # Ensure we have the full history so manifest baselines are reachable
+  execute_process(
+    COMMAND git -C "${_vcpkg_root}" rev-parse --is-shallow-repository
+    OUTPUT_VARIABLE _is_shallow
+    OUTPUT_STRIP_TRAILING_WHITESPACE
+    ERROR_QUIET
+    RESULT_VARIABLE _is_shallow_ec
+  )
+  if(_is_shallow_ec EQUAL 0 AND _is_shallow STREQUAL "true")
+    message(STATUS "[Lumi][vcpkg] Repository is shallow; fetching full history so baselines resolve")
+    execute_process(
+      COMMAND git -C "${_vcpkg_root}" fetch --unshallow
+      RESULT_VARIABLE _unshallow_ec
+    )
+    if(NOT _unshallow_ec EQUAL 0)
+      message(FATAL_ERROR "[Lumi][vcpkg] failed to fetch full history (${_unshallow_ec})")
+    endif()
+  endif()
+
 
   # Bootstrap
   if(WIN32)
