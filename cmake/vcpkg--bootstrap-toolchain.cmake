@@ -56,7 +56,7 @@ function(lumi_bootstrap_vcpkg)
     endif()
   endif()
 
-   # Ensure we have the full history so manifest baselines are reachable
+    # Ensure we have the full history so manifest baselines are reachable
   execute_process(
     COMMAND git -C "${_vcpkg_root}" rev-parse --is-shallow-repository
     OUTPUT_VARIABLE _is_shallow
@@ -74,6 +74,45 @@ function(lumi_bootstrap_vcpkg)
       message(FATAL_ERROR "[Lumi][vcpkg] failed to fetch full history (${_unshallow_ec})")
     endif()
   endif()
+
+
+  # Discover the manifest baseline (if any) so we can guarantee it's fetched
+  set(_manifest_baseline "")
+  if(EXISTS "${CMAKE_SOURCE_DIR}/vcpkg.json")
+    file(READ "${CMAKE_SOURCE_DIR}/vcpkg.json" _manifest_raw)
+    string(JSON _manifest_baseline ERROR_VARIABLE _manifest_json_err GET "${_manifest_raw}" builtin-baseline)
+    if(_manifest_json_err)
+      set(_manifest_baseline "")
+    endif()
+  endif()
+
+  if(NOT _manifest_baseline STREQUAL "")
+    execute_process(
+      COMMAND git -C "${_vcpkg_root}" cat-file -e "${_manifest_baseline}^{commit}"
+      RESULT_VARIABLE _baseline_present_ec
+      ERROR_QUIET
+    )
+    if(NOT _baseline_present_ec EQUAL 0)
+      message(STATUS "[Lumi][vcpkg] Manifest baseline ${_manifest_baseline} missing locally; fetching origin to update registry")
+      execute_process(
+        COMMAND git -C "${_vcpkg_root}" fetch origin --tags --force
+        RESULT_VARIABLE _baseline_fetch_ec
+      )
+      if(NOT _baseline_fetch_ec EQUAL 0)
+        message(WARNING "[Lumi][vcpkg] Failed to fetch baseline ${_manifest_baseline} (git rc=${_baseline_fetch_ec}). You may need to run 'git -C ${_vcpkg_root} fetch origin ${_manifest_baseline}' manually.")
+      else()
+        execute_process(
+          COMMAND git -C "${_vcpkg_root}" cat-file -e "${_manifest_baseline}^{commit}"
+          RESULT_VARIABLE _baseline_present_ec
+          ERROR_QUIET
+        )
+        if(NOT _baseline_present_ec EQUAL 0)
+          message(WARNING "[Lumi][vcpkg] Baseline ${_manifest_baseline} is still unavailable after fetching; installs may fail until the registry is updated.")
+        endif()
+      endif()
+    endif()
+  endif()
+
 
 
   # Bootstrap
