@@ -1,0 +1,102 @@
+# 🎵 Apple Music Replay 2022
+
+- **Line of Fire** by *The Veronicas*
+- **Always** by *The Veronicas*
+- **Cruel** by *The Veronicas*
+- **Set Fire to the Rain** by *Adele*
+- **Carry On Wayward Son** by *Kansas*
+- **Castles** by *Freya Ridings*
+- **Blinding Lights** by *The Weeknd*
+- **Teenage Dirtbag** by *Wheatus*
+- **Evacuate the Dancefloor** by *Cascada*
+- **the other girl (with Halsey)** by *Kelsea Ballerini*
+- **You Ruin Me** by *The Veronicas*
+- **More Like Me** by *The Veronicas*
+- **Sanctified** by *The Veronicas*
+- **Mad Love** by *The Veronicas*
+- **According to You** by *Orianthi*
+- **Cool Kids** by *Echosmith*
+- **Tonight** by *Magnolia Park, LiL Lotus*
+- **How Come You Don't Want Me** by *Tegan and Sara*
+- **Catch My Breath** by *Kelly Clarkson*
+- **Free Fallin'** by *Tom Petty*
+- **Born Bob Dylan** by *The Veronicas*
+- **Teenage Millionaire** by *The Veronicas*
+- **I Really Like You** by *Carly Rae Jepsen*
+- **Sixteen** by *Ellie Goulding*
+- **If You Love Someone** by *The Veronicas*
+- **2009** by *Magnolia Park*
+- **Liar** by *Magnolia Park*
+- **Dreams** by *Fleetwood Mac*
+- **Where We're Going** by *Gerry Cinnamon*
+- **Killing In The Name** by *Rage Against the Machine*
+- **Counting Stars** by *OneRepublic*
+- **Put It in a Song** by *Taylor Acorn*
+- **Wide Awake** by *Katy Perry*
+- **Wake Up** by *Loud Forest*
+- **Canter** by *Gerry Cinnamon*
+- **Locked Out of Heaven** by *Bruno Mars*
+- **Heartbeat Song** by *Kelly Clarkson*
+- **Boom Clap** by *Charli xcx*
+- **Slipping Away** by *Sum 41*
+- **Sweet Home Alabama** by *Lynyrd Skynyrd*
+- **Up Up & Away** by *Kid Cudi*
+- **Goodbye, Goodbye** by *Tegan and Sara*
+- **I Was a Fool** by *Tegan and Sara*
+- **96 Quite Bitter Beings** by *CKY*
+- **Sabotage** by *Beastie Boys*
+- **Feeling so Good** by *Ashley Tisdale*
+- **Crazy** by *Gnarls Barkley*
+- **When It's Love** by *Van Halen*
+- **Kampfire Vampire** by *Gerry Cinnamon*
+- **Lose You To Love Me** by *Selena Gomez*
+- **Crawling** by *LINKIN PARK*
+- **Drove Me Wild** by *Tegan and Sara*
+- **Revolution** by *The Veronicas*
+- **Human** by *Daughter*
+- **Chasing Pavements** by *Adele*
+- **Did You Miss Me (I'm a Veronica)** by *The Veronicas*
+- **Kiss from a Rose** by *Seal*
+- **Summer of '69** by *Bryan Adams*
+- **Rolling in the Deep** by *Adele*
+- **Sun Queen** by *Gerry Cinnamon*
+- **Broken** by *lovelytheband*
+- **The Kill (Bury Me)** by *Thirty Seconds to Mars*
+- **If You Love Her** by *Forest Blakk*
+- **Love Is Fire** by *Freya Ridings*
+- **Back Home** by *Magnolia Park*
+- **Under Pressure** by *Ashley Tisdale*
+- **For What It's Worth** by *Buffalo Springfield*
+- **Please Don't Tease** by *The Donnas*
+- **In the Air Tonight** by *Phil Collins*
+- **Rosanna** by *Toto*
+- **Wrecking Ball** by *Miley Cyrus*
+- **Blow Me (One Last Kiss)** by *P!nk*
+- **Shock To Your System** by *Tegan and Sara*
+- **Can't Fight This Feeling** by *REO Speedwagon*
+- **Be Alright** by *Dean Lewis*
+- **Better** by *Regina Spektor*
+- **All of the Pieces** by *Reigan*
+- **Cold** by *The Veronicas*
+- **The End** by *Magnolia Park*
+- **Surrender** by *Natalie Taylor*
+- **Ten** by *Jimmy Eat World*
+- **A Hundred Wishes** by *Loreena McKennitt*
+- **Now I'm All Messed Up** by *Tegan and Sara*
+- **Guilty As Charged (Bonus Track)** by *Tegan and Sara*
+- **Everything I'm Not** by *The Veronicas*
+- **Kids Like Us** by *Magnolia Park*
+- **(Everything I Do) I Do It for You** by *Bryan Adams*
+- **Does He Love You?** by *Rilo Kiley*
+- **Hotel California (Remastered)** by *Eagles*
+- **Runaway Train (2022 Remaster)** by *Soul Asylum*
+- **Promiscuous (feat. Timbaland)** by *Nelly Furtado*
+- **Counterfeit** by *Limp Bizkit*
+- **Sweet Dreams (Are Made of This)** by *Eurythmics*
+- **Ghost** by *Gerry Cinnamon*
+- **Easy On Me** by *Adele*
+- **bad guy** by *Billie Eilish*
+- **Here's To Never Growing Up** by *Megan Nicole*
+- **Closer** by *Tegan and Sara*
+- **Weak** by *AJR*
+- **I.Crawl** by *Childish Gambino*

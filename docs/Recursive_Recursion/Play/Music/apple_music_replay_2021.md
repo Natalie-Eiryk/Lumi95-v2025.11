@@ -1,0 +1,82 @@
+# 🎵 Apple Music Replay 2021
+
+- **Sweet Tooth** by *Cavetown*
+- **Where Does the Good Go** by *Tegan and Sara*
+- **Untouched** by *The Veronicas*
+- **Closer** by *Tegan and Sara*
+- **This Love** by *The Veronicas*
+- **I Was a Fool** by *Tegan and Sara*
+- **On Your Side** by *The Veronicas*
+- **What You Never Know (Won't Hurt You) [Sunrise Mix]** by *Hayley Westenra*
+- **Smile** by *Avril Lavigne*
+- **Goodbye, Goodbye** by *Tegan and Sara*
+- **Mad Love** by *The Veronicas*
+- **According to You** by *Orianthi*
+- **Rolling in the Deep** by *Adele*
+- **Popular** by *The Veronicas*
+- **Ak-47** by *Little Big*
+- **Hook Me Up** by *The Veronicas*
+- **You Wouldn't Like Me** by *Tegan and Sara*
+- **Take Me On the Floor** by *The Veronicas*
+- **Walking With a Ghost** by *Tegan and Sara*
+- **I Couldn't Be Your Friend** by *Tegan and Sara*
+- **May It Be** by *Conventus Choir, Hayley Westenra*
+- **Never Saw Blue (Full Length Drums Mix)** by *Hayley Westenra*
+- **Hello** by *Adele*
+- **So Jealous** by *Tegan and Sara*
+- **Fortunate Son** by *Creedence Clearwater Revival*
+- **You Need To Calm Down** by *Taylor Swift*
+- **Mean** by *Taylor Swift*
+- **4Ever** by *The Veronicas*
+- **Take Me Anywhere** by *Tegan and Sara*
+- **Quanta Qualia** by *Hayley Westenra, Conventus Choir, Royal Philharmonic Orchestra, Partrick Hawes*
+- **My Heart Belongs to You (US Mix)** by *Hayley Westenra*
+- **I'm Not Your Hero** by *Tegan and Sara*
+- **Drove Me Wild** by *Tegan and Sara*
+- **2009** by *Magnolia Park*
+- **Shallow (Radio Edit)** by *Lady Gaga, Bradley Cooper*
+- **Plastic Plan** by *CKY*
+- **Water Under the Bridge** by *Adele*
+- **Call My Dad** by *AJR*
+- **Prologue: One Ring To Rule Them All** by *Howard Shore*
+- **Back In Your Head** by *Tegan and Sara*
+- **Everything I'm Not** by *The Veronicas*
+- **When It All Falls Apart** by *The Veronicas*
+- **I Know I Know I Know** by *Tegan and Sara*
+- **I Bet It Stung** by *Tegan and Sara*
+- **Line of Fire** by *The Veronicas*
+- **When It's Spring Time In Alaska (It's Forty Below)** by *Johnny Horton*
+- **Set Fire to the Rain** by *Adele*
+- **Just Dance (feat. Colby O'Donis)** by *Lady Gaga*
+- **Voices in My Head** by *Ashley Tisdale*
+- **The Doors of Durin** by *Howard Shore*
+- **Easy On Me** by *Adele*
+- **The Days of the Phoenix** by *AFI*
+- **In the End** by *LINKIN PARK*
+- **Pretty Fly (For a White Guy)** by *The Offspring*
+- **Prayer** by *Hayley Westenra*
+- **Cruel** by *The Veronicas*
+- **Both Sides Now** by *Hayley Westenra*
+- **Think of Me** by *The Veronicas*
+- **Faradenza** by *Little Big*
+- **Dancing Through Sunday** by *AFI*
+- **Very Old Friends** by *Howard Shore*
+- **Walk Beside Me (Live 2017)** by *Celtic Woman*
+- **Love You Like a Love Song** by *Selena Gomez & The Scene*
+- **Revolution** by *The Veronicas*
+- **Love Me & Let Me Go** by *Ashley Tisdale*
+- **Ave Maria** by *Hayley Westenra*
+- **Revenge Is Sweeter (Than You Ever Were)** by *The Veronicas*
+- **My Friends Over You** by *New Found Glory*
+- **Mount Pyre** by *Yasunori Mitsuda*
+- **Shake It Off** by *Taylor Swift*
+- **Teenage Dream** by *Katy Perry*
+- **Did You Miss Me (I'm a Veronica)** by *The Veronicas*
+- **Telephone (feat. Beyoncé)** by *Lady Gaga*
+- **Shook** by *Cautious Clay*
+- **I Won't Be Left** by *Tegan and Sara*
+- **We Didn't Do It** by *Tegan and Sara*
+- **Cherry Twist** by *The Crystal Method*
+- **I Miss You** by *Adele*
+- **Downtown** by *Tegan and Sara*
+- **Firework** by *Katy Perry*

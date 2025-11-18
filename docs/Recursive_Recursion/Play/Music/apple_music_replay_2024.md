@@ -1,0 +1,102 @@
+# 🎵 Apple Music Replay 2024
+
+- **The Path** by *Lorde*
+- **Human** by *Christina Perri*
+- **Not Like I’m In Love With You** by *LEW*
+- **Choose Me Then** by *Belles*
+- **Uncomfortably Numb (feat. Taylor Acorn)** by *Arrows in Action*
+- **Put It in a Song** by *Taylor Acorn*
+- **Head Over Feet** by *Alanis Morissette*
+- **Sad Song (feat. Elena Coats)** by *We the Kings*
+- **Missing You** by *LEW*
+- **Heartbeat Song** by *Kelly Clarkson*
+- **Take Me** by *Aly & AJ*
+- **Here's To Never Growing Up** by *Megan Nicole*
+- **Teenage Dirtbag** by *Wheatus*
+- **Wake Up** by *Loud Forest*
+- **Heartbreak Away** by *Kelsey Lamb*
+- **You Might Not Like Her** by *Maddie Zahm*
+- **Surrender** by *Natalie Taylor*
+- **Narcissist** by *Lauren Spencer Smith*
+- **True Crime** by *Taylor Acorn*
+- **Boston** by *LEW*
+- **Something Tonight** by *Taylor Acorn*
+- **Cool Kids** by *Echosmith*
+- **I Was a Fool** by *Tegan and Sara*
+- **Shapeshifting** by *Taylor Acorn*
+- **I’m Not Your Mom** by *Maddie Zahm*
+- **Runaway Train (2022 Remaster)** by *Soul Asylum*
+- **Love** by *Jana Kramer*
+- **Can't Feel My Face** by *The Weeknd*
+- **Broken** by *lovelytheband*
+- **Love Me Like You Do (From "Fifty Shades of Grey")** by *Ellie Goulding*
+- **growing up can go to hell** by *Marisa Maino*
+- **Circles** by *Jana Kramer*
+- **The Kill (Bury Me)** by *Thirty Seconds to Mars*
+- **We Were Never Friends** by *Marielle Kraft*
+- **Wrecking Ball** by *Miley Cyrus*
+- **Anti-Hero** by *Taylor Swift*
+- **Sixteen** by *Ellie Goulding*
+- **Oh My My** by *Blue October*
+- **All of the Pieces** by *Reigan*
+- **Love Into the Light** by *Kesha*
+- **Crawling** by *LINKIN PARK*
+- **Evacuate the Dancefloor** by *Cascada*
+- **Psycho** by *Taylor Acorn*
+- **Castles** by *Freya Ridings*
+- **Sober** by *Bad Wolves*
+- **How Come You Don't Want Me** by *Tegan and Sara*
+- **Boom Clap** by *Charli xcx*
+- **Ways to Break a Heart** by *Maddie Zahm*
+- **the other girl (with Halsey)** by *Kelsea Ballerini*
+- **96 Quite Bitter Beings** by *CKY*
+- **Up Up & Away** by *Kid Cudi*
+- **Fly from the Inside** by *Shinedown*
+- **Wide Awake** by *Katy Perry*
+- **Are We** by *Taylor Acorn*
+- **Be Alright** by *Dean Lewis*
+- **Like A Boy** by *LEW*
+- **Kiss from a Rose** by *Seal*
+- **Torn** by *Natalie Imbruglia*
+- **Therapy** by *Taylor Acorn*
+- **What's My Age Again?** by *blink-182*
+- **Me Over You** by *LEW*
+- **Water Under the Bridge** by *Adele*
+- **New Disease** by *Spineshank*
+- **Can't Breathe (feat. Orianthi)** by *Fefe Dobson, Orianthi*
+- **Bulletproof** by *La Roux*
+- **In My Head** by *Taylor Acorn*
+- **Feeling so Good** by *Ashley Tisdale*
+- **Ex Appeal** by *LEW*
+- **The Leaver** by *Belles*
+- **What Do I Do** by *Taylor Acorn*
+- **Can't Fight This Feeling** by *REO Speedwagon*
+- **If You Love Her** by *Forest Blakk*
+- **Catch My Breath** by *Kelly Clarkson*
+- **Lose You To Love Me** by *Selena Gomez*
+- **Before We Knew Too Much** by *LEW*
+- **Give Your Heart a Break** by *Demi Lovato*
+- **Everyone But Me** by *Marielle Kraft*
+- **I'll Be Back Someday** by *Tegan and Sara*
+- **Missing You** by *John Waite*
+- **Smile** by *Avril Lavigne*
+- **Moon Baby** by *Godsmack*
+- **Happy** by *Hilary Duff*
+- **Makeup Is Expensive** by *LEW*
+- **Free Fallin'** by *Tom Petty*
+- **Ten** by *Jimmy Eat World*
+- **Fire N Gold** by *Bea Miller*
+- **I'd Hate Me Too** by *Christina Sikora*
+- **Feel It Still** by *Portugal. The Man*
+- **10 for 10** by *Magnolia Park*
+- **Sweet Emotion** by *Aerosmith*
+- **Two Is Better Than One (feat. Taylor Swift)** by *BOYS LIKE GIRLS*
+- **Glorious (feat. Skylar Grey)** by *Macklemore*
+- **Come Hang Out** by *AJR*
+- **Straightjacket Feeling** by *The All-American Rejects*
+- **Diamonds** by *Rihanna*
+- **Party In the U.S.A.** by *Miley Cyrus*
+- **Free** by *Loud Forest*
+- **Not My Ex** by *katie MAC*
+- **In Your Eyes** by *The Weeknd*
+- **Just Dance (feat. Colby O'Donis)** by *Lady Gaga*

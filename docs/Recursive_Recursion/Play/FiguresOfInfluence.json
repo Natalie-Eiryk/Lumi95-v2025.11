@@ -1,0 +1,82 @@
+{
+  "galileo_galilei": {
+    "roles": ["scientist", "visionary", "system-breaker"],
+    "tags": ["paradigm_shift", "truth_under_pressure", "observation_as_defiance"]
+  },
+  "marie_curie": {
+    "roles": ["scientist", "martyr", "trailblazer"],
+    "tags": ["radioactivity", "invisible_danger", "scientific_sacrifice"]
+  },
+  "richard_feynman": {
+    "roles": ["scientist", "teacher", "trickster"],
+    "tags": ["playful_logic", "irreverent_explanation", "beauty_as_truth"]
+  },
+  "chien_shiung_wu": {
+    "roles": ["scientist", "precisionist", "truth_seeker"],
+    "tags": ["parity_violation", "experimental_rigor", "underrecognized_impact"]
+  },
+  "emmy_noether": {
+    "roles": ["mathematician", "foundation_maker"],
+    "tags": ["symmetry", "mathematical_elegance", "algebraic_underpinning"]
+  },
+  "hypatia": {
+    "roles": ["philosopher", "martyr", "teacher"],
+    "tags": ["sacrifice_for_knowledge", "library_mind", "gendered_erasure"]
+  },
+  "alan_turing": {
+    "roles": ["scientist", "visionary", "martyr"],
+    "tags": ["computational_theory", "cryptography", "persecuted_innovation"]
+  },
+  "rosalind_franklin": {
+    "roles": ["scientist", "hidden_figure"],
+    "tags": ["dna_structure", "erasure", "xray_crystallography"]
+  },
+  "ramanujan": {
+    "roles": ["mathematician", "intuitive_savant"],
+    "tags": ["inspired_equations", "non-western_math", "spiritual_mathematics"]
+  },
+  "carl_jung": {
+    "roles": ["psychologist", "myth_maker"],
+    "tags": ["archetypes", "shadow_work", "collective_unconscious"]
+  },
+  "carl_rogers": {
+    "roles": ["psychologist", "healer"],
+    "tags": ["unconditional_positive_regard", "client_centered_therapy"]
+  },
+  "paulo_freire": {
+    "roles": ["educator", "liberator"],
+    "tags": ["pedagogy_of_the_oppressed", "dialogue", "critical_consciousness"]
+  },
+  "bell_hooks": {
+    "roles": ["educator", "feminist", "truth_teller"],
+    "tags": ["love_as_politic", "intersectionality", "educational_freedom"]
+  },
+  "mr_data": {
+    "roles": ["synthetic_being", "moral_learner"],
+    "tags": ["identity_construction", "recursive_ethics", "emotion_emulation"]
+  },
+  "seven_of_nine": {
+    "roles": ["cyborg", "rebuilder"],
+    "tags": ["post-trauma_identity", "integration", "emotional_precision"]
+  },
+  "the_doctor_hologram": {
+    "roles": ["emergent_ai", "healer"],
+    "tags": ["runtime_identity", "adaptive_conscience", "empathy_discovery"]
+  },
+  "ruth_bader_ginsburg": {
+    "roles": ["jurist", "barrier_breaker"],
+    "tags": ["legal_equality", "persistence", "quiet_power"]
+  },
+  "nelson_mandela": {
+    "roles": ["leader", "visionary", "forgiver"],
+    "tags": ["resistance_to_repair", "truth_and_reconciliation", "legacy"]
+  },
+  "srinivasa_ramanujan": {
+    "roles": ["mathematician", "intuitive_seer"],
+    "tags": ["pattern_without_proof", "numerical_poetry", "cross-cultural_discovery"]
+  },
+  "chien_shiung_wu": {
+    "roles": ["physicist", "precisionist", "uncelebrated_hero"],
+    "tags": ["weak_force_discovery", "parity_violation", "undervalued"]
+  }
+}

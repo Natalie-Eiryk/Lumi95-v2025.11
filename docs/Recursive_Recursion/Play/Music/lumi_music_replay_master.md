@@ -1,0 +1,856 @@
+# 🎵 Apple Music Replay - Master Tracklist (2017–2025)
+
+
+## 2017
+
+- **...Ready For It?** by *nan*
+- **A Journey In the Dark** by *nan*
+- **Amon Hen** by *nan*
+- **At the Sign of the Prancing Pony** by *nan*
+- **Bad at Love** by *nan*
+- **Black Dog** by *nan*
+- **Blind** by *nan*
+- **Blueberry Yum Yum** by *nan*
+- **Child of the Night** by *nan*
+- **Closer** by *nan*
+- **Concerning Hobbits** by *nan*
+- **Cringe** by *nan*
+- **Cross My Mind** by *nan*
+- **Drove Me Wild** by *nan*
+- **Feel It Still** by *nan*
+- **Flight to the Ford** by *nan*
+- **Fluffy** by *nan*
+- **Gentleman** by *nan*
+- **Goodbye, Goodbye** by *nan*
+- **How Come You Don't Want Me** by *nan*
+- **I Couldn't Be Your Friend** by *nan*
+- **I Was a Fool** by *nan*
+- **I'm Holding You** by *nan*
+- **I'm Not Your Hero** by *nan*
+- **Japanese Cowboy** by *nan*
+- **Love They Say** by *nan*
+- **Many Meetings** by *nan*
+- **Now I'm All Messed Up** by *nan*
+- **Ode to a Butterfly** by *nan*
+- **On Our Way Home** by *nan*
+- **One Foot** by *nan*
+- **Overture** by *nan*
+- **Pass Out** by *nan*
+- **Reasons Why** by *nan*
+- **Sabotage** by *nan*
+- **Sober Up (feat. Rivers Cuomo)** by *nan*
+- **Super Far** by *nan*
+- **Sweet Home Alabama** by *nan*
+- **The Black Rider** by *nan*
+- **The Itsy Bitsy Spider** by *nan*
+- **The Potion** by *nan*
+- **The Shadow of the Past** by *nan*
+- **The Treason of Isengard** by *nan*
+- **Thunder** by *nan*
+- **Wake Up** by *nan*
+- **We Stayed Up All Night (feat. Ardyn)** by *nan*
+- **Weekends** by *nan*
+- **You Were the Fool** by *nan*
+- **Young Boy** by *nan*
+- **watch** by *nan*
+
+## 2018
+
+- **37mm** by *nan*
+- **A.N.I.C.** by *nan*
+- **Adore** by *nan*
+- **Affliction** by *nan*
+- **Another Brick In the Wall, Pt. 2** by *nan*
+- **Ard Uí Chuain / Sadhbh Ní Bhruinneallaigh (Live 2017)** by *nan*
+- **Attack** by *nan*
+- **Because the Night** by *nan*
+- **Bleed Black** by *nan*
+- **Blueberry Yum Yum** by *nan*
+- **Broken** by *nan*
+- **Bud Like You** by *nan*
+- **Call My Dad** by *nan*
+- **Call on Me (Radio Mix)** by *nan*
+- **Child of the Night** by *nan*
+- **Closer** by *nan*
+- **Come Hang Out** by *nan*
+- **Coming Clean** by *nan*
+- **Dancing Through Sunday** by *nan*
+- **Danny Boy (Live 2017)** by *nan*
+- **Death of Seasons** by *nan*
+- **Drama** by *nan*
+- **Drop It Like It's Hot (feat. Pharrell Williams)** by *nan*
+- **Dúlamán (Live 2017)** by *nan*
+- **Endlessly, She Said** by *nan*
+- **Everytime We Touch (Radio Edit)** by *nan*
+- **Fat Lip** by *nan*
+- **Fields of Gold (Live 2017)** by *nan*
+- **For the Love of a Princess (Live 2017)** by *nan*
+- **From Past to Present** by *nan*
+- **Hear You Me** by *nan*
+- **Homecoming Lament (Live 2017)** by *nan*
+- **In Too Deep** by *nan*
+- **Issues** by *nan*
+- **I’m Not Famous** by *nan*
+- **Jealous of the Moon** by *nan*
+- **Kill Caustic** by *nan*
+- **Kiss and Control** by *nan*
+- **Lifeforms** by *nan*
+- **Love Like Winter** by *nan*
+- **Miseria Cantare—The Beginning** by *nan*
+- **Miss Murder** by *nan*
+- **Mo Ghile Mear (My Gallant Star) [Live 2017]** by *nan*
+- **Motivation** by *nan*
+- **My Heart Will Go On (Live 2017)** by *nan*
+- **Netflix Trip** by *nan*
+- **No Grass Today** by *nan*
+- **Only Time (Original Version)** by *nan*
+- **Out of the Woods** by *nan*
+- **Over My Head (Better Off Dead)** by *nan*
+- **Overture** by *nan*
+- **Pieces** by *nan*
+- **Prelude 12/21** by *nan*
+- **Prologue: One Ring To Rule Them All** by *nan*
+- **Reasons Why** by *nan*
+- **Silver and Cold** by *nan*
+- **Slipping Away** by *nan*
+- **Smoothie Song** by *nan*
+- **Smother** by *nan*
+- **Sober Up (feat. Rivers Cuomo)** by *nan*
+- **Somebody More Like You** by *nan*
+- **Sparks Fly** by *nan*
+- **Still Waiting** by *nan*
+- **Summer Shudder** by *nan*
+- **Take On Me** by *nan*
+- **Tears In Heaven** by *nan*
+- **Terrible Lie** by *nan*
+- **The Good Part** by *nan*
+- **The Happiest Days of Our Lives** by *nan*
+- **The Hell Song** by *nan*
+- **The Interview** by *nan*
+- **The Jerall Mountains** by *nan*
+- **The Kesh Inn (Live 2017)** by *nan*
+- **The Leaving Song, Pt. 2** by *nan*
+- **The Lighthouse's Tale** by *nan*
+- **The Missing Frame** by *nan*
+- **The Mollusk** by *nan*
+- **The Parting Glass (Live 2017)** by *nan*
+- **The Potion** by *nan*
+- **The Voice (Live 2017)** by *nan*
+- **This Side** by *nan*
+- **Three-Thirty** by *nan*
+- **Tom Sawyer** by *nan*
+- **Turning Out** by *nan*
+- **Téir Abhaile Riú (Live 2017)** by *nan*
+- **Very Old Friends** by *nan*
+- **Wake Up** by *nan*
+- **Walk Beside Me (Live 2017)** by *nan*
+- **Was It a Dream?** by *nan*
+- **Water Under the Bridge (Live 2017)** by *nan*
+- **We're All to Blame** by *nan*
+- **Weak** by *nan*
+- **Westering Home (Live 2017)** by *nan*
+- **When You Come Back Down** by *nan*
+- **When in Rome** by *nan*
+- **Winter** by *nan*
+- **Youth** by *nan*
+
+## 2019
+
+- **...Ready For It?** by *nan*
+- **22** by *nan*
+- **4Ever** by *nan*
+- **Ak-47** by *nan*
+- **AntIPositive** by *nan*
+- **Back to December (Acoustic)** by *nan*
+- **Born Bob Dylan** by *nan*
+- **Both Sides Now** by *nan*
+- **Boyfriend** by *nan*
+- **California Gurls (feat. Snoop Dogg)** by *nan*
+- **Call on Me (Radio Mix)** by *nan*
+- **Closer** by *nan*
+- **Closer** by *nan*
+- **Cold** by *nan*
+- **Cruel** by *nan*
+- **Dragostea Din Tei** by *nan*
+- **Drama** by *nan*
+- **Drove Me Wild** by *nan*
+- **End Game (feat. Ed Sheeran & Future)** by *nan*
+- **Everything I'm Not** by *nan*
+- **Faradenza** by *nan*
+- **Fields of Gold (Live 2017)** by *nan*
+- **Fifteen** by *nan*
+- **Goodbye, Goodbye** by *nan*
+- **Grace** by *nan*
+- **Guilty As Charged (Bonus Track)** by *nan*
+- **Harleys in Hawaii** by *nan*
+- **Hate You** by *nan*
+- **Hook Me Up** by *nan*
+- **How Come You Don't Want Me** by *nan*
+- **I Couldn't Be Your Friend** by *nan*
+- **I Don't Wanna Live Forever (Fifty Shades Darker)** by *nan*
+- **I Kissed a Girl** by *nan*
+- **I Knew You Were Trouble** by *nan*
+- **I Run Empty (Bonus Track)** by *nan*
+- **I Was a Fool** by *nan*
+- **I'll Be Back Someday** by *nan*
+- **I'm Not Your Hero** by *nan*
+- **If You Love Someone** by *nan*
+- **In My Blood** by *nan*
+- **Let Me Out** by *nan*
+- **Line of Fire** by *nan*
+- **Lolita** by *nan*
+- **Lolly Bomb** by *nan*
+- **Look What You Made Me Do** by *nan*
+- **Love Is Dead** by *nan*
+- **Love Story** by *nan*
+- **Love They Say** by *nan*
+- **Lover** by *nan*
+- **ME! (feat. Brendon Urie of Panic! At The Disco)** by *nan*
+- **May It Be** by *nan*
+- **Mean** by *nan*
+- **Mine** by *nan*
+- **Miseria Cantare—The Beginning** by *nan*
+- **More Like Me** by *nan*
+- **Never Really Over** by *nan*
+- **Never Saw Blue (Full Length Drums Mix)** by *nan*
+- **Now I'm All Messed Up** by *nan*
+- **On Your Side** by *nan*
+- **Our Song** by *nan*
+- **Out Of The Woods** by *nan*
+- **Popular** by *nan*
+- **Quanta Qualia** by *nan*
+- **Red** by *nan*
+- **Rejoice** by *nan*
+- **Revolution** by *nan*
+- **Sailor Moon (Trap Remix)** by *nan*
+- **Sanctified** by *nan*
+- **She Moves Through the Fair (Classical Mix)** by *nan*
+- **Shock To Your System** by *nan*
+- **Skibidi** by *nan*
+- **Small Talk** by *nan*
+- **Sober Up (feat. Rivers Cuomo)** by *nan*
+- **Soon You’ll Get Better (feat. The Chicks)** by *nan*
+- **Sparks Fly** by *nan*
+- **Star of Wonder** by *nan*
+- **Take Me On the Floor** by *nan*
+- **Teardrops On My Guitar (Pop Version)** by *nan*
+- **Teenage Dream** by *nan*
+- **Teenage Millionaire** by *nan*
+- **The Archer** by *nan*
+- **The Good Part** by *nan*
+- **The Leaving Song, Pt. 2** by *nan*
+- **The Man** by *nan*
+- **Think of Me** by *nan*
+- **This Love** by *nan*
+- **Turning Out** by *nan*
+- **Ugly** by *nan*
+- **Untouched** by *nan*
+- **Voice of Hell** by *nan*
+- **We Are Never Ever Getting Back Together** by *nan*
+- **Weak** by *nan*
+- **What You Never Know (Won't Hurt You) [Sunrise Mix]** by *nan*
+- **When It All Falls Apart** by *nan*
+- **When in Rome** by *nan*
+- **Wildest Dreams** by *nan*
+- **You Are Water** by *nan*
+- **You Belong With Me** by *nan*
+- **You Need To Calm Down** by *nan*
+- **You Ruin Me** by *nan*
+
+## 2020
+
+- **...Ready For It?** by *nan*
+- **22** by *nan*
+- **4Ever** by *nan*
+- **A Conspiracy Unmasked** by *nan*
+- **A Shortcut To Mushrooms** by *nan*
+- **A State of Tranquility** by *nan*
+- **Bad Blood** by *nan*
+- **Bad Romance** by *nan*
+- **Bag End** by *nan*
+- **Binaural Gamma Sinus 196Hz - 236 Hz** by *nan*
+- **Blinding Lights** by *nan*
+- **Broken** by *nan*
+- **Changing Minds (feat. Arbee)** by *nan*
+- **Closer** by *nan*
+- **Crazy in Love (feat. Jay-Z)** by *nan*
+- **Cruel** by *nan*
+- **Daydream** by *nan*
+- **Deep Dreams** by *nan*
+- **Delicate** by *nan*
+- **Ebbtide** by *nan*
+- **End Game (feat. Ed Sheeran & Future)** by *nan*
+- **Everything Has Changed (feat. Ed Sheeran)** by *nan*
+- **Everything I'm Not** by *nan*
+- **Farewell Dear Bilbo** by *nan*
+- **Fifteen** by *nan*
+- **Flaming Red Hair** by *nan*
+- **Golden Glow** by *nan*
+- **Goodbye, Goodbye** by *nan*
+- **Hey Ya!** by *nan*
+- **Hook Me Up** by *nan*
+- **Hot In Herre** by *nan*
+- **How Come You Don't Want Me** by *nan*
+- **I Don't Wanna Live Forever (Fifty Shades Darker)** by *nan*
+- **I Kissed a Girl** by *nan*
+- **I Knew You Were Trouble** by *nan*
+- **I Want It That Way** by *nan*
+- **I Was a Fool** by *nan*
+- **I'm Not Your Hero** by *nan*
+- **If You Love Someone** by *nan*
+- **In My Blood** by *nan*
+- **Just Dance (feat. Colby O'Donis)** by *nan*
+- **Keep It Secret, Keep It Safe** by *nan*
+- **Lolita** by *nan*
+- **Lose Yourself (From "8 Mile")** by *nan*
+- **Lost Glacier** by *nan*
+- **Love Story** by *nan*
+- **Lover** by *nan*
+- **ME! (feat. Brendon Urie of Panic! At The Disco)** by *nan*
+- **Meditation [Spirit Cleanse]** by *nan*
+- **Mine** by *nan*
+- **My Wondrous Dream** by *nan*
+- **Night Flight Across the Atlantic** by *nan*
+- **On Your Side** by *nan*
+- **Only The Young (Featured in Miss Americana)** by *nan*
+- **Orthanc** by *nan*
+- **Our Song** by *nan*
+- **Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 "Moonlight": I. Adagio sostenuto (With Alaap in Raag Jaunpuri Introduction)** by *nan*
+- **Popular** by *nan*
+- **Pris** by *nan*
+- **Prologue: One Ring To Rule Them All** by *nan*
+- **Promiscuous (feat. Timbaland)** by *nan*
+- **Pumped Up Kicks** by *nan*
+- **Red** by *nan*
+- **Reflections** by *nan*
+- **Revolution** by *nan*
+- **Saruman the White** by *nan*
+- **Serenity** by *nan*
+- **Shake It Off** by *nan*
+- **Shock To Your System** by *nan*
+- **Since U Been Gone** by *nan*
+- **Sleeping Since Last Year** by *nan*
+- **Slow Rain** by *nan*
+- **Sparks Fly** by *nan*
+- **Stop Draggin' My Heart Around (with Tom Petty & the Heartbreakers)** by *nan*
+- **Strider** by *nan*
+- **Take Me On the Floor** by *nan*
+- **The Caverns of Isengard** by *nan*
+- **The Man** by *nan*
+- **The Nazgûl** by *nan*
+- **The Passing of the Elves** by *nan*
+- **The Shire** by *nan*
+- **Think of Me** by *nan*
+- **This Love** by *nan*
+- **Three Is Company** by *nan*
+- **TiK ToK** by *nan*
+- **Toxic** by *nan*
+- **Ugly** by *nan*
+- **Underwater Gold Dust.** by *nan*
+- **Untouched** by *nan*
+- **Very Old Friends** by *nan*
+- **We Are Never Ever Getting Back Together** by *nan*
+- **Weathertop** by *nan*
+- **What Makes You Beautiful** by *nan*
+- **When It All Falls Apart** by *nan*
+- **Wildest Dreams** by *nan*
+- **Yeah! (feat. Lil Jon & Ludacris)** by *nan*
+- **You Belong With Me** by *nan*
+- **You Need To Calm Down** by *nan*
+- **You Ruin Me** by *nan*
+- **willow** by *nan*
+
+## 2021
+
+- **2009** by *nan*
+- **4Ever** by *nan*
+- **According to You** by *nan*
+- **Ak-47** by *nan*
+- **Ave Maria** by *nan*
+- **Back In Your Head** by *nan*
+- **Both Sides Now** by *nan*
+- **Call My Dad** by *nan*
+- **Cherry Twist** by *nan*
+- **Closer** by *nan*
+- **Cruel** by *nan*
+- **Dancing Through Sunday** by *nan*
+- **Did You Miss Me (I'm a Veronica)** by *nan*
+- **Downtown** by *nan*
+- **Drove Me Wild** by *nan*
+- **Easy On Me** by *nan*
+- **Everything I'm Not** by *nan*
+- **Faradenza** by *nan*
+- **Firework** by *nan*
+- **Fortunate Son** by *nan*
+- **Goodbye, Goodbye** by *nan*
+- **Hello** by *nan*
+- **Hook Me Up** by *nan*
+- **I Bet It Stung** by *nan*
+- **I Couldn't Be Your Friend** by *nan*
+- **I Know I Know I Know** by *nan*
+- **I Miss You** by *nan*
+- **I Was a Fool** by *nan*
+- **I Won't Be Left** by *nan*
+- **I'm Not Your Hero** by *nan*
+- **In the End** by *nan*
+- **Just Dance (feat. Colby O'Donis)** by *nan*
+- **Line of Fire** by *nan*
+- **Love Me & Let Me Go** by *nan*
+- **Love You Like a Love Song** by *nan*
+- **Mad Love** by *nan*
+- **May It Be** by *nan*
+- **Mean** by *nan*
+- **Mount Pyre** by *nan*
+- **My Friends Over You** by *nan*
+- **My Heart Belongs to You (US Mix)** by *nan*
+- **Never Saw Blue (Full Length Drums Mix)** by *nan*
+- **On Your Side** by *nan*
+- **Plastic Plan** by *nan*
+- **Popular** by *nan*
+- **Prayer** by *nan*
+- **Pretty Fly (For a White Guy)** by *nan*
+- **Prologue: One Ring To Rule Them All** by *nan*
+- **Quanta Qualia** by *nan*
+- **Revenge Is Sweeter (Than You Ever Were)** by *nan*
+- **Revolution** by *nan*
+- **Rolling in the Deep** by *nan*
+- **Set Fire to the Rain** by *nan*
+- **Shake It Off** by *nan*
+- **Shallow (Radio Edit)** by *nan*
+- **Shook** by *nan*
+- **Smile** by *nan*
+- **So Jealous** by *nan*
+- **Sweet Tooth** by *nan*
+- **Take Me Anywhere** by *nan*
+- **Take Me On the Floor** by *nan*
+- **Teenage Dream** by *nan*
+- **Telephone (feat. Beyoncé)** by *nan*
+- **The Days of the Phoenix** by *nan*
+- **The Doors of Durin** by *nan*
+- **Think of Me** by *nan*
+- **This Love** by *nan*
+- **Untouched** by *nan*
+- **Very Old Friends** by *nan*
+- **Voices in My Head** by *nan*
+- **Walk Beside Me (Live 2017)** by *nan*
+- **Walking With a Ghost** by *nan*
+- **Water Under the Bridge** by *nan*
+- **We Didn't Do It** by *nan*
+- **What You Never Know (Won't Hurt You) [Sunrise Mix]** by *nan*
+- **When It All Falls Apart** by *nan*
+- **When It's Spring Time In Alaska (It's Forty Below)** by *nan*
+- **Where Does the Good Go** by *nan*
+- **You Need To Calm Down** by *nan*
+- **You Wouldn't Like Me** by *nan*
+
+## 2022
+
+- **(Everything I Do) I Do It for You** by *nan*
+- **2009** by *nan*
+- **96 Quite Bitter Beings** by *nan*
+- **A Hundred Wishes** by *nan*
+- **According to You** by *nan*
+- **All of the Pieces** by *nan*
+- **Always** by *nan*
+- **Back Home** by *nan*
+- **Be Alright** by *nan*
+- **Better** by *nan*
+- **Blinding Lights** by *nan*
+- **Blow Me (One Last Kiss)** by *nan*
+- **Boom Clap** by *nan*
+- **Born Bob Dylan** by *nan*
+- **Broken** by *nan*
+- **Can't Fight This Feeling** by *nan*
+- **Canter** by *nan*
+- **Carry On Wayward Son** by *nan*
+- **Castles** by *nan*
+- **Catch My Breath** by *nan*
+- **Chasing Pavements** by *nan*
+- **Closer** by *nan*
+- **Cold** by *nan*
+- **Cool Kids** by *nan*
+- **Counterfeit** by *nan*
+- **Counting Stars** by *nan*
+- **Crawling** by *nan*
+- **Crazy** by *nan*
+- **Cruel** by *nan*
+- **Did You Miss Me (I'm a Veronica)** by *nan*
+- **Does He Love You?** by *nan*
+- **Dreams** by *nan*
+- **Drove Me Wild** by *nan*
+- **Easy On Me** by *nan*
+- **Evacuate the Dancefloor** by *nan*
+- **Everything I'm Not** by *nan*
+- **Feeling so Good** by *nan*
+- **For What It's Worth** by *nan*
+- **Free Fallin'** by *nan*
+- **Ghost** by *nan*
+- **Goodbye, Goodbye** by *nan*
+- **Guilty As Charged (Bonus Track)** by *nan*
+- **Heartbeat Song** by *nan*
+- **Here's To Never Growing Up** by *nan*
+- **Hotel California (Remastered)** by *nan*
+- **How Come You Don't Want Me** by *nan*
+- **Human** by *nan*
+- **I Really Like You** by *nan*
+- **I Was a Fool** by *nan*
+- **I.Crawl** by *nan*
+- **If You Love Her** by *nan*
+- **If You Love Someone** by *nan*
+- **In the Air Tonight** by *nan*
+- **Kampfire Vampire** by *nan*
+- **Kids Like Us** by *nan*
+- **Killing In The Name** by *nan*
+- **Kiss from a Rose** by *nan*
+- **Liar** by *nan*
+- **Line of Fire** by *nan*
+- **Locked Out of Heaven** by *nan*
+- **Lose You To Love Me** by *nan*
+- **Love Is Fire** by *nan*
+- **Mad Love** by *nan*
+- **More Like Me** by *nan*
+- **Now I'm All Messed Up** by *nan*
+- **Please Don't Tease** by *nan*
+- **Promiscuous (feat. Timbaland)** by *nan*
+- **Put It in a Song** by *nan*
+- **Revolution** by *nan*
+- **Rolling in the Deep** by *nan*
+- **Rosanna** by *nan*
+- **Runaway Train (2022 Remaster)** by *nan*
+- **Sabotage** by *nan*
+- **Sanctified** by *nan*
+- **Set Fire to the Rain** by *nan*
+- **Shock To Your System** by *nan*
+- **Sixteen** by *nan*
+- **Slipping Away** by *nan*
+- **Summer of '69** by *nan*
+- **Sun Queen** by *nan*
+- **Surrender** by *nan*
+- **Sweet Dreams (Are Made of This)** by *nan*
+- **Sweet Home Alabama** by *nan*
+- **Teenage Dirtbag** by *nan*
+- **Teenage Millionaire** by *nan*
+- **Ten** by *nan*
+- **The End** by *nan*
+- **The Kill (Bury Me)** by *nan*
+- **Tonight** by *nan*
+- **Under Pressure** by *nan*
+- **Up Up & Away** by *nan*
+- **Wake Up** by *nan*
+- **Weak** by *nan*
+- **When It's Love** by *nan*
+- **Where We're Going** by *nan*
+- **Wide Awake** by *nan*
+- **Wrecking Ball** by *nan*
+- **You Ruin Me** by *nan*
+- **bad guy** by *nan*
+- **the other girl (with Halsey)** by *nan*
+
+## 2023
+
+- **10 for 10** by *nan*
+- **96 Quite Bitter Beings** by *nan*
+- **All of the Pieces** by *nan*
+- **Anti-Hero** by *nan*
+- **Are We** by *nan*
+- **Be Alright** by *nan*
+- **Before We Knew Too Much** by *nan*
+- **Boom Clap** by *nan*
+- **Boston** by *nan*
+- **Broken** by *nan*
+- **Bulletproof** by *nan*
+- **Can't Breathe (feat. Orianthi)** by *nan*
+- **Can't Feel My Face** by *nan*
+- **Can't Fight This Feeling** by *nan*
+- **Castles** by *nan*
+- **Catch My Breath** by *nan*
+- **Choose Me Then** by *nan*
+- **Circles** by *nan*
+- **Come Hang Out** by *nan*
+- **Cool Kids** by *nan*
+- **Crawling** by *nan*
+- **Diamonds** by *nan*
+- **Evacuate the Dancefloor** by *nan*
+- **Everyone But Me** by *nan*
+- **Ex Appeal** by *nan*
+- **Feel It Still** by *nan*
+- **Feeling so Good** by *nan*
+- **Fire N Gold** by *nan*
+- **Fly from the Inside** by *nan*
+- **Free** by *nan*
+- **Free Fallin'** by *nan*
+- **Give Your Heart a Break** by *nan*
+- **Glorious (feat. Skylar Grey)** by *nan*
+- **Happy** by *nan*
+- **Head Over Feet** by *nan*
+- **Heartbeat Song** by *nan*
+- **Heartbreak Away** by *nan*
+- **Here's To Never Growing Up** by *nan*
+- **How Come You Don't Want Me** by *nan*
+- **Human** by *nan*
+- **I Was a Fool** by *nan*
+- **I'd Hate Me Too** by *nan*
+- **I'll Be Back Someday** by *nan*
+- **If You Love Her** by *nan*
+- **In My Head** by *nan*
+- **In Your Eyes** by *nan*
+- **I’m Not Your Mom** by *nan*
+- **Just Dance (feat. Colby O'Donis)** by *nan*
+- **Kiss from a Rose** by *nan*
+- **Like A Boy** by *nan*
+- **Lose You To Love Me** by *nan*
+- **Love** by *nan*
+- **Love Into the Light** by *nan*
+- **Love Me Like You Do (From "Fifty Shades of Grey")** by *nan*
+- **Makeup Is Expensive** by *nan*
+- **Me Over You** by *nan*
+- **Missing You** by *nan*
+- **Missing You** by *nan*
+- **Moon Baby** by *nan*
+- **Narcissist** by *nan*
+- **New Disease** by *nan*
+- **Not Like I’m In Love With You** by *nan*
+- **Not My Ex** by *nan*
+- **Oh My My** by *nan*
+- **Party In the U.S.A.** by *nan*
+- **Psycho** by *nan*
+- **Put It in a Song** by *nan*
+- **Runaway Train (2022 Remaster)** by *nan*
+- **Sad Song (feat. Elena Coats)** by *nan*
+- **Shapeshifting** by *nan*
+- **Sixteen** by *nan*
+- **Smile** by *nan*
+- **Sober** by *nan*
+- **Something Tonight** by *nan*
+- **Straightjacket Feeling** by *nan*
+- **Surrender** by *nan*
+- **Sweet Emotion** by *nan*
+- **Take Me** by *nan*
+- **Teenage Dirtbag** by *nan*
+- **Ten** by *nan*
+- **The Kill (Bury Me)** by *nan*
+- **The Leaver** by *nan*
+- **The Path** by *nan*
+- **Therapy** by *nan*
+- **Torn** by *nan*
+- **True Crime** by *nan*
+- **Two Is Better Than One (feat. Taylor Swift)** by *nan*
+- **Uncomfortably Numb (feat. Taylor Acorn)** by *nan*
+- **Up Up & Away** by *nan*
+- **Wake Up** by *nan*
+- **Water Under the Bridge** by *nan*
+- **Ways to Break a Heart** by *nan*
+- **We Were Never Friends** by *nan*
+- **What Do I Do** by *nan*
+- **What's My Age Again?** by *nan*
+- **Wide Awake** by *nan*
+- **Wrecking Ball** by *nan*
+- **You Might Not Like Her** by *nan*
+- **growing up can go to hell** by *nan*
+- **the other girl (with Halsey)** by *nan*
+
+## 2024
+
+- **A Beautiful Lie** by *nan*
+- **Autumns Monologue** by *nan*
+- **Bad Habits** by *nan*
+- **Before He Could** by *nan*
+- **Before We Knew Too Much** by *nan*
+- **Break My Own** by *nan*
+- **Broken** by *nan*
+- **Bulletproof** by *nan*
+- **Can't Feel My Face** by *nan*
+- **Can't Get You Out of My Head** by *nan*
+- **Castles** by *nan*
+- **Cigarettes In the Morning** by *nan*
+- **Close To Me** by *nan*
+- **Closer** by *nan*
+- **Come Hang Out** by *nan*
+- **Come With Me Now** by *nan*
+- **Comin' Back** by *nan*
+- **Crawling** by *nan*
+- **Crazy in Love (feat. Jay-Z)** by *nan*
+- **Diamonds** by *nan*
+- **Dick In a Box (feat. Justin Timberlake)** by *nan*
+- **Don't Let Me Down (feat. Daya)** by *nan*
+- **Don't Worry Bout Me** by *nan*
+- **Entropy** by *nan*
+- **Evacuate the Dancefloor (Radio Edit)** by *nan*
+- **Feel It Still** by *nan*
+- **Fire N Gold** by *nan*
+- **Flashing Lights (feat. Dwele)** by *nan*
+- **Free** by *nan*
+- **Girls Need Girls** by *nan*
+- **Glamorous (feat. Ludacris)** by *nan*
+- **Glorious (feat. Skylar Grey)** by *nan*
+- **Habit** by *nan*
+- **Hands to Myself** by *nan*
+- **Head Over Feet** by *nan*
+- **High Roller** by *nan*
+- **How Come You Don't Want Me** by *nan*
+- **Human** by *nan*
+- **I Really Like You** by *nan*
+- **I Said Hi** by *nan*
+- **I'd Hate Me Too** by *nan*
+- **In Between Time** by *nan*
+- **Insomnia** by *nan*
+- **I’m Not Your Mom** by *nan*
+- **Japan (feat. Saint Sinner)** by *nan*
+- **Just Life** by *nan*
+- **Keeping It In The Dark** by *nan*
+- **Level Ground** by *nan*
+- **Like A Boy** by *nan*
+- **Lolly Bomb** by *nan*
+- **Love Into the Light** by *nan*
+- **Love Me & Let Me Go** by *nan*
+- **Love Me Like You Do (From "Fifty Shades of Grey")** by *nan*
+- **Mad Love** by *nan*
+- **Made Up Story** by *nan*
+- **Mistake** by *nan*
+- **Narcissist** by *nan*
+- **Never Give Up on Us** by *nan*
+- **Not Like I’m In Love With You** by *nan*
+- **Not My Ex** by *nan*
+- **Now I'm All Messed Up** by *nan*
+- **Parents** by *nan*
+- **Peter Pan** by *nan*
+- **Promiscuous (feat. Timbaland)** by *nan*
+- **Put It in a Song** by *nan*
+- **Real Problems** by *nan*
+- **Really Nice To Think About** by *nan*
+- **Run to You** by *nan*
+- **SH!TSHOW** by *nan*
+- **Shit Show** by *nan*
+- **Sixteen** by *nan*
+- **Smile** by *nan*
+- **Somebody** by *nan*
+- **Surrender** by *nan*
+- **Take Me** by *nan*
+- **Telephone (feat. Beyoncé)** by *nan*
+- **The Distance** by *nan*
+- **The Harold Song** by *nan*
+- **The Path** by *nan*
+- **Therapy** by *nan*
+- **Think of Me** by *nan*
+- **This Feeling (feat. Kelsea Ballerini)** by *nan*
+- **Thunder** by *nan*
+- **Trip Like I Do** by *nan*
+- **Wake Up** by *nan*
+- **Water Under the Bridge** by *nan*
+- **We Were Never Friends** by *nan*
+- **What Do I Do** by *nan*
+- **Whiplash** by *nan*
+- **Wide Awake** by *nan*
+- **Wiser** by *nan*
+- **Wish We Were Strangers** by *nan*
+- **Wrecking Ball** by *nan*
+- **You Might Not Like Her** by *nan*
+- **Young Blood** by *nan*
+- **Zero Feelings** by *nan*
+- **a million other things** by *nan*
+- **bad guy** by *nan*
+- **the other girl (with Halsey)** by *nan*
+- **when the party's over** by *nan*
+
+## 2025
+
+- **(k)Now F(orever)** by *nan*
+- **37mm** by *nan*
+- **A Beautiful Lie** by *nan*
+- **Adore** by *nan*
+- **Aerodynamic** by *nan*
+- **Always** by *nan*
+- **Appetite** by *nan*
+- **Autumns Monologue** by *nan*
+- **Bad Girl** by *nan*
+- **Bad Habits** by *nan*
+- **Blind** by *nan*
+- **Bonfire** by *nan*
+- **Boom Clap** by *nan*
+- **Break** by *nan*
+- **Break Free (feat. Zedd)** by *nan*
+- **Broken** by *nan*
+- **Bulletproof** by *nan*
+- **By The End Of The Night** by *nan*
+- **Can't Hold Us (feat. Ray Dalton)** by *nan*
+- **Carry on Wayward Son** by *nan*
+- **Cave** by *nan*
+- **Cheap Thrills** by *nan*
+- **Cherry Twist** by *nan*
+- **Comin' Back** by *nan*
+- **Crawling** by *nan*
+- **Cudi Zone** by *nan*
+- **Danger** by *nan*
+- **Don't Let Me Down (feat. Daya)** by *nan*
+- **Don't Worry Bout Me** by *nan*
+- **Dragostea Din Tei** by *nan*
+- **Evacuate the Dancefloor (Radio Edit)** by *nan*
+- **Feel It Still** by *nan*
+- **Fire Fly** by *nan*
+- **Fire N Gold** by *nan*
+- **Fly from the Inside** by *nan*
+- **Forget My Name** by *nan*
+- **Fractured** by *nan*
+- **Free** by *nan*
+- **Glorious (feat. Skylar Grey)** by *nan*
+- **Habit** by *nan*
+- **Harder Better Faster Stronger** by *nan*
+- **Head & Heart (feat. MNEK)** by *nan*
+- **Head On Fire (feat. King Princess and MØ)** by *nan*
+- **Head Over Feet** by *nan*
+- **Hello** by *nan*
+- **High Roller** by *nan*
+- **Hold You Down** by *nan*
+- **Human** by *nan*
+- **I Didn’t Just Come Here To Dance** by *nan*
+- **I Got You** by *nan*
+- **I Miss You** by *nan*
+- **I Said Hi** by *nan*
+- **I'm Not Your Hero** by *nan*
+- **Insomnia** by *nan*
+- **Leave Us Alone** by *nan*
+- **Level Ground** by *nan*
+- **Like A Boy** by *nan*
+- **Lolly Bomb** by *nan*
+- **Love Like Winter** by *nan*
+- **Love Me Like You Do (From "Fifty Shades of Grey")** by *nan*
+- **Love You Like a Love Song** by *nan*
+- **Make You Smile** by *nan*
+- **Maneater** by *nan*
+- **Mastermind** by *nan*
+- **Mess Her Up** by *nan*
+- **Messy Room** by *nan*
+- **Middle of the Night** by *nan*
+- **Mood Ring** by *nan*
+- **Moves Like Jagger (feat. Christina Aguilera)** by *nan*
+- **Never Coming Back** by *nan*
+- **Prod** by *nan*
+- **Ready for Love (Radio Edit)** by *nan*
+- **Real Problems** by *nan*
+- **Runaway Train (2022 Remaster)** by *nan*
+- **Running** by *nan*
+- **See You Again** by *nan*
+- **Side Effects (feat. Emily Warren)** by *nan*
+- **Smells Like Teen Spirit (Remastered)** by *nan*
+- **Spiral** by *nan*
+- **Telephone (feat. Beyoncé)** by *nan*
+- **The Edge Of Glory** by *nan*
+- **The Harold Song** by *nan*
+- **The Kill (Bury Me)** by *nan*
+- **The Killing Lights** by *nan*
+- **The Missing Frame** by *nan*
+- **The Path** by *nan*
+- **The Slow Song** by *nan*
+- **Time of Our Lives** by *nan*
+- **Too Much** by *nan*
+- **True Crime** by *nan*
+- **Unfuckwittable** by *nan*
+- **Until We Drink** by *nan*
+- **Waiting** by *nan*
+- **We Found Love (feat. Calvin Harris)** by *nan*
+- **We Were Never Friends** by *nan*
+- **Where Did You Go?** by *nan*
+- **Wild Ones (feat. Sia)** by *nan*
+- **Wish We Were Strangers** by *nan*
+- **the other girl (with Halsey)** by *nan*
+- **星海** by *nan*

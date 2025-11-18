@@ -1,0 +1,99 @@
+# 🎵 Apple Music Replay 2018
+
+- **Sober Up (feat. Rivers Cuomo)** by *AJR*
+- **Weak** by *AJR*
+- **Fields of Gold (Live 2017)** by *Celtic Woman*
+- **Turning Out** by *AJR*
+- **Overture** by *AJR*
+- **Drama** by *AJR*
+- **The Good Part** by *AJR*
+- **Three-Thirty** by *AJR*
+- **Everytime We Touch (Radio Edit)** by *Cascada*
+- **No Grass Today** by *AJR*
+- **Call on Me (Radio Mix)** by *Eric Prydz*
+- **Homecoming Lament (Live 2017)** by *Celtic Woman*
+- **Call My Dad** by *AJR*
+- **Blueberry Yum Yum** by *Ludacris, Sleepy Brown*
+- **Mo Ghile Mear (My Gallant Star) [Live 2017]** by *Celtic Woman*
+- **Over My Head (Better Off Dead)** by *Sum 41*
+- **Still Waiting** by *Sum 41*
+- **The Potion** by *Ludacris*
+- **The Hell Song** by *Sum 41*
+- **Westering Home (Live 2017)** by *Celtic Woman*
+- **Walk Beside Me (Live 2017)** by *Celtic Woman*
+- **Youth** by *Daughter*
+- **Netflix Trip** by *AJR*
+- **I’m Not Famous** by *AJR*
+- **Hear You Me** by *Jimmy Eat World*
+- **Wake Up** by *Loud Forest*
+- **My Heart Will Go On (Live 2017)** by *Celtic Woman*
+- **Motivation** by *Sum 41*
+- **Fat Lip** by *Sum 41*
+- **Was It a Dream?** by *Thirty Seconds to Mars*
+- **A.N.I.C.** by *Sum 41*
+- **Bud Like You** by *AJR*
+- **Smoothie Song** by *Nickel Creek*
+- **Miss Murder** by *AFI*
+- **Summer Shudder** by *AFI*
+- **The Leaving Song, Pt. 2** by *AFI*
+- **Broken** by *lovelytheband*
+- **Water Under the Bridge (Live 2017)** by *Celtic Woman*
+- **Pieces** by *Sum 41*
+- **We're All to Blame** by *Sum 41*
+- **Dúlamán (Live 2017)** by *Celtic Woman*
+- **The Parting Glass (Live 2017)** by *Celtic Woman*
+- **Ard Uí Chuain / Sadhbh Ní Bhruinneallaigh (Live 2017)** by *Celtic Woman*
+- **The Voice (Live 2017)** by *Celtic Woman*
+- **For the Love of a Princess (Live 2017)** by *Celtic Woman*
+- **In Too Deep** by *Sum 41*
+- **Tears In Heaven** by *Eric Clapton*
+- **Lifeforms** by *Daughter*
+- **Somebody More Like You** by *Nickel Creek*
+- **When in Rome** by *Nickel Creek*
+- **Issues** by *Julia Michaels*
+- **From Past to Present** by *Jeremy Soule*
+- **Kiss and Control** by *AFI*
+- **Prelude 12/21** by *AFI*
+- **Tom Sawyer** by *Rush*
+- **Miseria Cantare—The Beginning** by *AFI*
+- **Death of Seasons** by *AFI*
+- **Téir Abhaile Riú (Live 2017)** by *Celtic Woman*
+- **The Kesh Inn (Live 2017)** by *Celtic Woman*
+- **Danny Boy (Live 2017)** by *Celtic Woman*
+- **Smother** by *Daughter*
+- **Winter** by *Daughter*
+- **Only Time (Original Version)** by *Enya*
+- **Terrible Lie** by *Nine Inch Nails*
+- **Because the Night** by *Cascada*
+- **Closer** by *Nine Inch Nails*
+- **Drop It Like It's Hot (feat. Pharrell Williams)** by *Snoop Dogg*
+- **Sparks Fly** by *Taylor Swift*
+- **Very Old Friends** by *Howard Shore*
+- **Attack** by *Thirty Seconds to Mars*
+- **Another Brick In the Wall, Pt. 2** by *Pink Floyd*
+- **The Jerall Mountains** by *Jeremy Soule*
+- **Prologue: One Ring To Rule Them All** by *Howard Shore*
+- **When You Come Back Down** by *Nickel Creek*
+- **Jealous of the Moon** by *Nickel Creek*
+- **This Side** by *Nickel Creek*
+- **Reasons Why** by *Nickel Creek*
+- **Out of the Woods** by *Nickel Creek*
+- **The Lighthouse's Tale** by *Nickel Creek*
+- **Take On Me** by *a-ha*
+- **Slipping Away** by *Sum 41*
+- **The Happiest Days of Our Lives** by *Pink Floyd*
+- **Coming Clean** by *The Get Up Kids*
+- **Endlessly, She Said** by *AFI*
+- **37mm** by *AFI*
+- **The Missing Frame** by *AFI*
+- **Affliction** by *AFI*
+- **Love Like Winter** by *AFI*
+- **The Interview** by *AFI*
+- **Kill Caustic** by *AFI*
+- **Dancing Through Sunday** by *AFI*
+- **Silver and Cold** by *AFI*
+- **Bleed Black** by *AFI*
+- **The Mollusk** by *Ween*
+- **Come Hang Out** by *AJR*
+- **Child of the Night** by *Ludacris, Nate Dogg*
+- **Adore** by *Amy Shark*

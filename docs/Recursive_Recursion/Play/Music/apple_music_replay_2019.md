@@ -1,0 +1,102 @@
+# 🎵 Apple Music Replay 2019
+
+- **Ak-47** by *Little Big*
+- **Faradenza** by *Little Big*
+- **Lolly Bomb** by *Little Big*
+- **Closer** by *Tegan and Sara*
+- **If You Love Someone** by *The Veronicas*
+- **Mine** by *Taylor Swift*
+- **In My Blood** by *The Veronicas*
+- **Think of Me** by *The Veronicas*
+- **You Ruin Me** by *The Veronicas*
+- **Popular** by *The Veronicas*
+- **This Love** by *The Veronicas*
+- **Untouched** by *The Veronicas*
+- **Harleys in Hawaii** by *Katy Perry*
+- **4Ever** by *The Veronicas*
+- **Mean** by *Taylor Swift*
+- **You Need To Calm Down** by *Taylor Swift*
+- **I Knew You Were Trouble** by *Taylor Swift*
+- **I Don't Wanna Live Forever (Fifty Shades Darker)** by *ZAYN, Taylor Swift*
+- **Both Sides Now** by *Hayley Westenra*
+- **Shock To Your System** by *Tegan and Sara*
+- **Cruel** by *The Veronicas*
+- **On Your Side** by *The Veronicas*
+- **I Was a Fool** by *Tegan and Sara*
+- **22** by *Taylor Swift*
+- **Ugly** by *The Veronicas*
+- **Goodbye, Goodbye** by *Tegan and Sara*
+- **Love They Say** by *Tegan and Sara*
+- **Take Me On the Floor** by *The Veronicas*
+- **Sober Up (feat. Rivers Cuomo)** by *AJR*
+- **Teenage Dream** by *Katy Perry*
+- **Lolita** by *The Veronicas*
+- **Love Story** by *Taylor Swift*
+- **Drove Me Wild** by *Tegan and Sara*
+- **I'm Not Your Hero** by *Tegan and Sara*
+- **Everything I'm Not** by *The Veronicas*
+- **You Belong With Me** by *Taylor Swift*
+- **What You Never Know (Won't Hurt You) [Sunrise Mix]** by *Hayley Westenra*
+- **Voice of Hell** by *Little Big*
+- **Look What You Made Me Do** by *Taylor Swift*
+- **Now I'm All Messed Up** by *Tegan and Sara*
+- **May It Be** by *Conventus Choir, Hayley Westenra*
+- **Turning Out** by *AJR*
+- **Wildest Dreams** by *Taylor Swift*
+- **AntIPositive** by *Little Big*
+- **Skibidi** by *Little Big*
+- **I Run Empty (Bonus Track)** by *Tegan and Sara*
+- **I Kissed a Girl** by *Katy Perry*
+- **Sanctified** by *The Veronicas*
+- **When It All Falls Apart** by *The Veronicas*
+- **Back to December (Acoustic)** by *Taylor Swift*
+- **How Come You Don't Want Me** by *Tegan and Sara*
+- **ME! (feat. Brendon Urie of Panic! At The Disco)** by *Taylor Swift*
+- **Red** by *Taylor Swift*
+- **She Moves Through the Fair (Classical Mix)** by *Hayley Westenra*
+- **The Good Part** by *AJR*
+- **Miseria Cantare—The Beginning** by *AFI*
+- **Never Saw Blue (Full Length Drums Mix)** by *Hayley Westenra*
+- **...Ready For It?** by *Taylor Swift*
+- **Never Really Over** by *Katy Perry*
+- **Small Talk** by *Katy Perry*
+- **I'll Be Back Someday** by *Tegan and Sara*
+- **Guilty As Charged (Bonus Track)** by *Tegan and Sara*
+- **Hook Me Up** by *The Veronicas*
+- **Sailor Moon (Trap Remix)** by *Trap Remix Guys*
+- **End Game (feat. Ed Sheeran & Future)** by *Taylor Swift*
+- **The Man** by *Taylor Swift*
+- **We Are Never Ever Getting Back Together** by *Taylor Swift*
+- **Born Bob Dylan** by *The Veronicas*
+- **I Couldn't Be Your Friend** by *Tegan and Sara*
+- **Cold** by *The Veronicas*
+- **Sparks Fly** by *Taylor Swift*
+- **Drama** by *AJR*
+- **Weak** by *AJR*
+- **The Leaving Song, Pt. 2** by *AFI*
+- **Love Is Dead** by *Little Big*
+- **Hate You** by *Little Big*
+- **Dragostea Din Tei** by *O-Zone*
+- **Call on Me (Radio Mix)** by *Eric Prydz*
+- **Out Of The Woods** by *Nickel Creek*
+- **Fields of Gold (Live 2017)** by *Celtic Woman*
+- **When in Rome** by *Nickel Creek*
+- **Closer** by *Nine Inch Nails*
+- **You Are Water** by *Hayley Westenra*
+- **Boyfriend** by *Tegan and Sara*
+- **Let Me Out** by *The Veronicas*
+- **Teenage Millionaire** by *The Veronicas*
+- **More Like Me** by *The Veronicas*
+- **California Gurls (feat. Snoop Dogg)** by *Katy Perry*
+- **Revolution** by *The Veronicas*
+- **Lover** by *Taylor Swift*
+- **Our Song** by *Taylor Swift*
+- **Fifteen** by *Taylor Swift*
+- **Teardrops On My Guitar (Pop Version)** by *Taylor Swift*
+- **Line of Fire** by *The Veronicas*
+- **Quanta Qualia** by *Hayley Westenra, Conventus Choir, Royal Philharmonic Orchestra, Partrick Hawes*
+- **Rejoice** by *Reigan*
+- **Grace** by *Reigan*
+- **Star of Wonder** by *Reigan*
+- **The Archer** by *Taylor Swift*
+- **Soon You’ll Get Better (feat. The Chicks)** by *Taylor Swift*
