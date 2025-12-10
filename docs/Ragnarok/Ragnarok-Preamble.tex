@@ -1,0 +1,49 @@
+﻿\documentclass[11pt]{article}
+
+% --- XeLaTeX unicode + fonts ---
+\usepackage{fontspec}
+
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchLowercase}
+
+% Body text = Georgia
+\setmainfont{Georgia}
+
+% Sans + mono (can tweak later)
+\setsansfont{Georgia}
+\setmonofont{Latin Modern Mono}
+
+% --- Character fonts (voices) ---
+% Make sure font names match your installed fonts exactly
+
+% Kara – The Girl Next Door
+\newfontfamily\KaraFont{The Girl Next Door}[Scale=1.0]
+
+% Heinrikr – Permanent Marker
+\newfontfamily\HeinFont{Permanent Marker}[Scale=1.0]
+
+% Astrid – La Belle Aurore
+\newfontfamily\AstridFont{La Belle Aurore}[Scale=1.0]
+
+% --- Convenience macros / environments for dialogue ---
+
+% Inline voice switches
+\newcommand{\kara}[1]{{\KaraFont #1}}
+\newcommand{\heinrikr}[1]{{\HeinFont #1}}
+\newcommand{\astrid}[1]{{\AstridFont #1}}
+
+% Block dialogue environments
+\newenvironment{KaraBlock}{\begin{quote}\KaraFont}{\end{quote}}
+\newenvironment{HeinBlock}{\begin{quote}\HeinFont}{\end{quote}}
+\newenvironment{AstridBlock}{\begin{quote}\AstridFont}{\end{quote}}
+
+% --- Language, layout, etc. ---
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{csquotes}
+\usepackage{hyperref}
+
+\linespread{1.1}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
