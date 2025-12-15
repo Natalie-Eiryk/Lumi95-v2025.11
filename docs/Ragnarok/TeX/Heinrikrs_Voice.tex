@@ -1,0 +1,49 @@
+% =========================
+% HEINRIKR (Permanent Marker)
+% =========================
+\IfFontExistsTF{Permanent Marker}{}{%
+  \errmessage{Font "Permanent Marker" not found. Install it and recompile.}%
+}
+
+\newfontfamily\HeinCalmFont{Permanent Marker}[Scale=MatchLowercase]
+\newfontfamily\HeinJoyFont{Permanent Marker}[Scale=MatchLowercase,LetterSpace=2]
+\newfontfamily\HeinSadFont{Permanent Marker}[Scale=MatchLowercase,LetterSpace=-1,FakeSlant=0.10]
+\newfontfamily\HeinAngerFont{Permanent Marker}[Scale=MatchLowercase,LetterSpace=0,FakeBold=2.4]
+\newfontfamily\HeinFearFont{Permanent Marker}[Scale=MatchLowercase,LetterSpace=3,FakeSlant=0.20]
+\newfontfamily\HeinDisgustFont{Permanent Marker}[Scale=MatchLowercase,LetterSpace=-2]
+\newfontfamily\HeinSurpriseFont{Permanent Marker}[Scale=MatchLowercase,LetterSpace=5,FakeBold=1.6]
+
+% Markers (distinct from Kara)
+\newcommand{\HeinMarkercalm}{\ensuremath{\blacklozenge}}
+\newcommand{\HeinMarkerjoy}{\ensuremath{\blacktriangleleft}}
+\newcommand{\HeinMarkersad}{\ensuremath{\blacktriangledown}}
+\newcommand{\HeinMarkeranger}{\ensuremath{\blacktriangle}}
+\newcommand{\HeinMarkerfear}{\ensuremath{\triangle}}
+\newcommand{\HeinMarkerdisgust}{\ensuremath{\blacksquare}}
+\newcommand{\HeinMarkersurprise}{!!}
+
+% Styles
+\newcommand{\HeinStylecalm}{\HeinCalmFont\normalsize\setstretch{1.02}\karaWordSpace{0.98}}
+\newcommand{\HeinStylejoy}{\HeinJoyFont\large\setstretch{1.08}\karaWordSpace{1.03}}
+\newcommand{\HeinStylesad}{\HeinSadFont\small\setstretch{1.00}\karaWordSpace{0.96}}
+\newcommand{\HeinStyleanger}{\HeinAngerFont\normalsize\setstretch{0.98}\karaWordSpace{0.90}}
+\newcommand{\HeinStylefear}{\HeinFearFont\small\setstretch{1.06}\karaWordSpace{1.08}}
+\newcommand{\HeinStyledisgust}{\HeinDisgustFont\small\setstretch{0.98}\karaWordSpace{0.92}}
+\newcommand{\HeinStylesurprise}{\HeinSurpriseFont\Large\setstretch{1.10}\karaWordSpace{1.10}}
+
+\newcommand{\heinApply}[1]{%
+  \ifcsname HeinStyle#1\endcsname \csname HeinStyle#1\endcsname \else \HeinStylecalm \fi
+}
+\newcommand{\heinMarker}[1]{%
+  \ifcsname HeinMarker#1\endcsname \csname HeinMarker#1\endcsname \else \HeinMarkercalm \fi
+}
+
+\NewDocumentCommand{\Hein}{ s O{calm} +m }{%
+  { \heinApply{#2}\IfBooleanT{#1}{\heinMarker{#2}\,}#3 }%
+}
+\NewDocumentEnvironment{hein}{ O{calm} }{%
+  \begin{quote}\heinApply{#1}\noindent\heinMarker{#1}\,\ignorespaces
+}{%
+  \end{quote}
+}
+

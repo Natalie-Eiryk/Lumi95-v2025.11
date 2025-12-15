@@ -1,0 +1,77 @@
+
+
+
+
+\defaultfontfeatures{Ligatures=TeX}
+
+% Fail loudly if the font isn't installed
+\IfFontExistsTF{The Girl Next Door}{}{%
+  \errmessage{Font "The Girl Next Door" not found. Install it (TTF/OTF) and recompile.}%
+}
+
+% --- Kara font variants (same font, different features) ---
+\newfontfamily\KaraCalmFont{The Girl Next Door}[Scale=MatchLowercase]
+\newfontfamily\KaraJoyFont{The Girl Next Door}[Scale=MatchLowercase,LetterSpace=3]
+\newfontfamily\KaraSadFont{The Girl Next Door}[Scale=MatchLowercase,LetterSpace=-1,FakeSlant=0.12]
+\newfontfamily\KaraAngerFont{The Girl Next Door}[Scale=MatchLowercase,LetterSpace=1,FakeBold=2.0]
+\newfontfamily\KaraFearFont{The Girl Next Door}[Scale=MatchLowercase,LetterSpace=4,FakeSlant=0.22]
+\newfontfamily\KaraDisgustFont{The Girl Next Door}[Scale=MatchLowercase,LetterSpace=-2]
+\newfontfamily\KaraSurpriseFont{The Girl Next Door}[Scale=MatchLowercase,LetterSpace=7,FakeBold=1.2]
+
+% --- TeX-level word spacing multiplier (NOT a fontspec feature) ---
+\newcommand{\karaWordSpace}[1]{%
+  \spaceskip=#1\fontdimen2\font plus \fontdimen3\font minus \fontdimen4\font
+  \xspaceskip=\spaceskip
+}
+
+% --- Markers (grayscale-safe) ---
+\newcommand{\KaraMarkercalm}{\ensuremath{\circ}}
+\newcommand{\KaraMarkerjoy}{\ensuremath{\star}}
+\newcommand{\KaraMarkersad}{\ensuremath{\triangledown}}
+\newcommand{\KaraMarkeranger}{\ensuremath{\blacktriangle}}
+\newcommand{\KaraMarkerfear}{\ensuremath{\triangle}}
+\newcommand{\KaraMarkerdisgust}{\ensuremath{\blacksquare}}
+\newcommand{\KaraMarkersurprise}{!}
+
+% --- Styles (font + size + rhythm + word spacing) ---
+\newcommand{\KaraStylecalm}{\KaraCalmFont\normalsize\setstretch{1.06}\karaWordSpace{1.00}}
+\newcommand{\KaraStylejoy}{\KaraJoyFont\large\setstretch{1.14}\karaWordSpace{1.08}}
+\newcommand{\KaraStylesad}{\KaraSadFont\small\setstretch{1.02}\karaWordSpace{0.98}}
+\newcommand{\KaraStyleanger}{\KaraAngerFont\normalsize\setstretch{1.00}\karaWordSpace{0.92}}
+\newcommand{\KaraStylefear}{\KaraFearFont\small\setstretch{1.10}\karaWordSpace{1.15}}
+\newcommand{\KaraStyledisgust}{\KaraDisgustFont\small\setstretch{0.98}\karaWordSpace{0.95}}
+\newcommand{\KaraStylesurprise}{\KaraSurpriseFont\Large\setstretch{1.20}\karaWordSpace{1.25}}
+
+% --- Lookup helpers (unknown emotion -> calm) ---
+\newcommand{\karaApply}[1]{%
+  \ifcsname KaraStyle#1\endcsname
+    \csname KaraStyle#1\endcsname
+  \else
+    \KaraStylecalm
+  \fi
+}
+\newcommand{\karaMarker}[1]{%
+  \ifcsname KaraMarker#1\endcsname
+    \csname KaraMarker#1\endcsname
+  \else
+    \KaraMarkercalm
+  \fi
+}
+
+% --- Inline: \Kara*[fear]{...} includes marker; without * no marker ---
+\NewDocumentCommand{\Kara}{ s O{calm} +m }{%
+  {%
+    \karaApply{#2}%
+    \IfBooleanT{#1}{\karaMarker{#2}\,}%
+    #3%
+  }%
+}
+
+% --- Block: \begin{kara}[anger] ... \end{kara} ---
+\NewDocumentEnvironment{kara}{ O{calm} }{%
+  \begin{quote}\karaApply{#1}\noindent\karaMarker{#1}\,\ignorespaces
+}{%
+  \end{quote}
+}
+
+

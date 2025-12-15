@@ -1,0 +1,49 @@
+
+% =========================
+% ASTRID (La Belle Aurore)
+% =========================
+\IfFontExistsTF{La Belle Aurore}{}{%
+  \errmessage{Font "La Belle Aurore" not found. Install it and recompile.}%
+}
+
+\newfontfamily\AstridCalmFont{La Belle Aurore}[Scale=MatchLowercase]
+\newfontfamily\AstridJoyFont{La Belle Aurore}[Scale=MatchLowercase,LetterSpace=2]
+\newfontfamily\AstridSadFont{La Belle Aurore}[Scale=MatchLowercase,LetterSpace=0,FakeSlant=0.14]
+\newfontfamily\AstridAngerFont{La Belle Aurore}[Scale=MatchLowercase,LetterSpace=1,FakeBold=1.8]
+\newfontfamily\AstridFearFont{La Belle Aurore}[Scale=MatchLowercase,LetterSpace=3,FakeSlant=0.22]
+\newfontfamily\AstridDisgustFont{La Belle Aurore}[Scale=MatchLowercase,LetterSpace=-1]
+\newfontfamily\AstridSurpriseFont{La Belle Aurore}[Scale=MatchLowercase,LetterSpace=5,FakeBold=1.3]
+
+% Markers (more “delicate”/airy)
+\newcommand{\AstridMarkercalm}{\ensuremath{\diamond}}
+\newcommand{\AstridMarkerjoy}{\ensuremath{\diamondsuit}}
+\newcommand{\AstridMarkersad}{\ensuremath{\triangledown}}
+\newcommand{\AstridMarkeranger}{\ensuremath{\blacktriangle}}
+\newcommand{\AstridMarkerfear}{\ensuremath{\triangle}}
+\newcommand{\AstridMarkerdisgust}{\ensuremath{\square}}
+\newcommand{\AstridMarkersurprise}{\ensuremath{\ast}}
+
+% Styles (give Astrid more breathing room overall)
+\newcommand{\AstridStylecalm}{\AstridCalmFont\normalsize\setstretch{1.12}\karaWordSpace{1.05}}
+\newcommand{\AstridStylejoy}{\AstridJoyFont\large\setstretch{1.18}\karaWordSpace{1.10}}
+\newcommand{\AstridStylesad}{\AstridSadFont\small\setstretch{1.10}\karaWordSpace{1.08}}
+\newcommand{\AstridStyleanger}{\AstridAngerFont\normalsize\setstretch{1.06}\karaWordSpace{0.98}}
+\newcommand{\AstridStylefear}{\AstridFearFont\small\setstretch{1.16}\karaWordSpace{1.15}}
+\newcommand{\AstridStyledisgust}{\AstridDisgustFont\small\setstretch{1.04}\karaWordSpace{0.98}}
+\newcommand{\AstridStylesurprise}{\AstridSurpriseFont\Large\setstretch{1.22}\karaWordSpace{1.18}}
+
+\newcommand{\astridApply}[1]{%
+  \ifcsname AstridStyle#1\endcsname \csname AstridStyle#1\endcsname \else \AstridStylecalm \fi
+}
+\newcommand{\astridMarker}[1]{%
+  \ifcsname AstridMarker#1\endcsname \csname AstridMarker#1\endcsname \else \AstridMarkercalm \fi
+}
+
+\NewDocumentCommand{\Astrid}{ s O{calm} +m }{%
+  { \astridApply{#2}\IfBooleanT{#1}{\astridMarker{#2}\,}#3 }%
+}
+\NewDocumentEnvironment{astrid}{ O{calm} }{%
+  \begin{quote}\astridApply{#1}\noindent\astridMarker{#1}\,\ignorespaces
+}{%
+  \end{quote}
+}

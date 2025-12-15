@@ -1,0 +1,60 @@
+﻿\documentclass[14pt]{book}
+
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.text}
+\usepackage{tikzpagenodes}
+\usepackage{newunicodechar}
+\newunicodechar{ }{\quad}
+
+% -------- Language, layout, etc. --------
+\usepackage[english]{babel}
+\usepackage{xparse}
+\usepackage{setspace}
+\usepackage{amssymb}
+
+
+% hyperref LAST
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+% Paragraph look
+\linespread{1.1}
+\setlength{\parskip}{0.5em}
+\setlength{\parindent}{0pt}
+\usepackage[
+  paperwidth=148mm,
+  paperheight=210mm,
+  inner=20mm,
+  outer=15mm,
+  top=20mm,
+  bottom=20mm
+]{geometry}
+
+\setmainfont{Georgia}
+\setsansfont{Georgia}
+\setmonofont{Latin Modern Mono}
+
+
+\input{Ragnarok-Preamble} % common preamble stuff
+
+\input{Astrids_Voice} % your voice macros
+
+\input{Heinrikrs_Voice}
+
+\input{Karas_Voice}
+\begin{document}
+
+\frontmatter
+% title page, etc.
+
+\mainmatter
+
+\include{Chapter-1-0/Chapter1-0}
+
+
+
+
+\end{document}

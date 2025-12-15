@@ -1,0 +1,46 @@
+﻿
+
+
+% -------- Unicode + Fonts --------
+\usepackage{fontspec}
+\usepackage{newunicodechar}
+
+% Map specific Unicode characters that cause trouble
+\newunicodechar{ }{\quad} % U+2003 EM SPACE -> LaTeX \quad
+% (add more mappings here if you see "Unicode character ... not set up" errors)
+
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchLowercase}
+
+% Body text = Georgia (system font)
+\setmainfont{Georgia}
+
+% Sans + mono
+\setsansfont{Georgia}
+\setmonofont{Latin Modern Mono}
+
+
+
+% -------- TikZ for scattered Kàra thoughts --------
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\pgfmathsetseed{12345} % change this for a different random layout
+
+% One Kàra sentence placed at a random vertical position on the page
+\newcommand{\kararandom}[1]{%
+  \begin{tikzpicture}[remember picture,overlay]
+    % Random number between 0 and 0.8 of the page height
+    \pgfmathsetmacro{\yrand}{rand*0.8}%
+    % Shift from top of page downward
+    \node[
+      anchor=west,
+      xshift=3em,
+      yshift=-\yrand\paperheight,
+      text width=0.6\paperwidth,
+      inner sep=0pt
+    ] at (current page.north west) {%
+      {\KaraFont #1}%
+    };
+  \end{tikzpicture}%
+}
+
+
