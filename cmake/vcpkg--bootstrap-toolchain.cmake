@@ -19,7 +19,7 @@ function(lumi_bootstrap_vcpkg)
   set(oneValueArgs)
   set(multiValueArgs)
   cmake_parse_arguments(LBVP "${options}" "${oneValueArgs}" "${multiValueArgs}" ${ARGN})
-
+  set(ENV{VCPKG_ROOT} "${_vcpkg_root}")
   # Respect pre-set VCPKG_ROOT; else default to in-repo deps
   if(DEFINED VCPKG_ROOT AND NOT VCPKG_ROOT STREQUAL "")
     set(_vcpkg_root "${VCPKG_ROOT}")
@@ -85,7 +85,19 @@ function(lumi_bootstrap_vcpkg)
       set(_manifest_baseline "")
     endif()
   endif()
-
+  # Validate that the baseline commit actually contains versions/baseline.json
+function(lumi_vcpkg_baseline_has_versions_file outvar vcpkg_root baseline_sha)
+  execute_process(
+    COMMAND git -C "${vcpkg_root}" show "${baseline_sha}:versions/baseline.json"
+    RESULT_VARIABLE _ec
+    OUTPUT_QUIET ERROR_QUIET
+  )
+  if(_ec EQUAL 0)
+    set(${outvar} ON PARENT_SCOPE)
+  else()
+    set(${outvar} OFF PARENT_SCOPE)
+  endif()
+endfunction()
  set(_skip_install_due_baseline OFF)
   if(NOT _manifest_baseline STREQUAL "")
     set(_have_net TRUE)
@@ -141,8 +153,26 @@ function(lumi_bootstrap_vcpkg)
     endif()
   endif()
 
-
-
+  # ... after baseline fetch attempts ...
+lumi_vcpkg_baseline_has_versions_file(_baseline_ok "${_vcpkg_root}" "${_manifest_baseline}")
+if(NOT _baseline_ok)
+  message(FATAL_ERROR
+    "[Lumi][vcpkg] builtin-baseline='${_manifest_baseline}' is invalid for versions mode.\n"
+    "It does not provide versions/baseline.json.\n"
+    "Fix: run:\n"
+    "  ${_vcpkg_root}/vcpkg.exe x-update-baseline --x-manifest-root=${CMAKE_SOURCE_DIR}\n"
+    "or set builtin-baseline to a valid vcpkg commit that contains versions/baseline.json.\n"
+  )
+endif()
+execute_process(
+  COMMAND "${_vcpkg_bin}" install
+          --x-manifest-root="${CMAKE_SOURCE_DIR}"
+          --triplet "${VCPKG_TARGET_TRIPLET}"
+          --clean-after-build
+          --disable-metrics
+  WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}"
+  RESULT_VARIABLE _inst_ec
+)
   # Bootstrap
   if(WIN32)
     set(_bootstrap "${_vcpkg_root}/bootstrap-vcpkg.bat")
