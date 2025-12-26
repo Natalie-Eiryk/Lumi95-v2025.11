@@ -40,47 +40,18 @@ include(EnvVars--SetLumiEnv)
 include(vcpkg--bootstrap-toolchain)
 lumi_bootstrap_vcpkg(RUN_INSTALL ON)
 
-# Example library/target
-add_library(MyCore src/my_core.cpp)
-lumi_apply_env_to_target(MyCore
-  INCLUDE_VARS TENSORRT_INCLUDE_DIRS PHYSX_INCLUDE_DIRS
-  LIB_VARS     TENSORRT_LIBRARY_DIRS PHYSX_LIBRARY_DIRS
-  DEFINE_VARS  LUMI_RUN_MODE LUMI_ENV
-)
+# Set CMake policy for PHYSX_ROOT and TENSORRT_ROOT usage
+cmake_policy(SET CMP0144 NEW)
 
-add_executable(lumi_app src/main/main.cpp)
-target_link_libraries(lumi_app PRIVATE MyCore)
-
-# Optional: use CONFIG packages from vcpkg
+# Find required packages from vcpkg
 find_package(yaml-cpp CONFIG QUIET)
-if(yaml-cpp_FOUND)
-  target_link_libraries(lumi_app PRIVATE yaml-cpp)
-endif()
 find_package(nlohmann_json CONFIG QUIET)
-if(nlohmann_json_FOUND)
-  target_link_libraries(lumi_app PRIVATE nlohmann_json::nlohmann_json)
-endif()
 find_package(GTest CONFIG QUIET)
-if(GTest_FOUND)
-  target_link_libraries(lumi_app PRIVATE GTest::gtest)
-endif()
 find_package(Qt6 COMPONENTS Widgets OpenGL QUIET)
-if(Qt6_FOUND)
-  target_link_libraries(lumi_app PRIVATE Qt6::Widgets Qt6::OpenGL)
-endif()
 
-# Optional SDKs (fallback via our Find*.cmake if config packages missing)
+# Find optional SDKs (fallback via our Find*.cmake if config packages missing)
 find_package(PhysX5 QUIET)       # our FindPhysX5.cmake
 find_package(TensorRT QUIET)     # our FindTensorRT.cmake
-if(PhysX5_FOUND)
-  target_link_libraries(lumi_app PRIVATE PhysX::PhysX)
-endif()
-if(TensorRT_FOUND)
-  target_link_libraries(lumi_app PRIVATE TensorRT::nvinfer)
-  if(TARGET TensorRT::nvinfer_plugin)
-    target_link_libraries(lumi_app PRIVATE TensorRT::nvinfer_plugin)
-  endif()
-endif()
 
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/src/CMakeLists.txt")
   add_subdirectory(src)

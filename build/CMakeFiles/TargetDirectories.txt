@@ -1,0 +1,10 @@
+F:/Lumi95/build/CMakeFiles/ALL_BUILD.dir
+F:/Lumi95/build/CMakeFiles/ZERO_CHECK.dir
+F:/Lumi95/build/src/CMakeFiles/lumi_base.dir
+F:/Lumi95/build/src/CMakeFiles/lumi_cores.dir
+F:/Lumi95/build/src/CMakeFiles/lumi_orchestrator.dir
+F:/Lumi95/build/src/CMakeFiles/lumi_llm.dir
+F:/Lumi95/build/src/CMakeFiles/lumi_interop.dir
+F:/Lumi95/build/src/CMakeFiles/lumi_ui.dir
+F:/Lumi95/build/src/CMakeFiles/Lumi286.dir
+F:/Lumi95/build/src/CMakeFiles/lumi_app.dir

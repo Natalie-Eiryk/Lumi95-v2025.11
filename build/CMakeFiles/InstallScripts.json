@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/Lumi95/build/cmake_install.cmake",
+		"F:/Lumi95/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
