@@ -27,7 +27,29 @@
       "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug)",
       "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug --clean-first)",
       "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug --target Lumi286)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(deps/vcpkg/vcpkg.exe list:*)",
+      "Bash(build/src/Debug/Lumi286.exe:*)",
+      "Bash(depsvcpkgvcpkg.exe install --triplet x64-windows)",
+      "Bash(./deps/vcpkg/vcpkg.exe install:*)",
+      "Bash(./deps/vcpkg/vcpkg.exe list:*)",
+      "Bash(Get-Process Lumi286 -ErrorAction SilentlyContinue)",
+      "Bash(Select-Object Name, Id, MainWindowTitle)",
+      "Bash(tasklist:*)",
+      "Bash(./Lumi286.exe)",
+      "Bash(./Lumi286.exe --version)",
+      "Bash(ldd:*)",
+      "Bash(timeout:*)",
+      "Bash(xargs cat:*)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug --target Lumi286 --clean-first)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Release --target Lumi286)",
+      "Bash(wc:*)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug --target lumi_physics)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug --target test_attractor_physics)",
+      "Bash(build/src/Debug/test_attractor_physics.exe)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug --target full_pipeline_example)",
+      "Bash(build/src/Debug/full_pipeline_example.exe)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" --build build --config Debug --target ollama_pipeline_example)"
     ]
   }
 }

@@ -6,6 +6,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
 # Run preflight
 include(Safeguards--Entry)
+include(Safeguards--EnsureOllama)
 lumi_safeguards_prerun()
 
 # Optional: turn ON to allow actual installs (safe default is OFF)
@@ -42,6 +43,9 @@ lumi_bootstrap_vcpkg(RUN_INSTALL ON)
 
 # Set CMake policy for PHYSX_ROOT and TENSORRT_ROOT usage
 cmake_policy(SET CMP0144 NEW)
+
+# Ensure vcpkg_installed is in CMAKE_PREFIX_PATH (for manifest mode)
+list(APPEND CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/vcpkg_installed/${VCPKG_TARGET_TRIPLET}")
 
 # Find required packages from vcpkg
 find_package(yaml-cpp CONFIG QUIET)

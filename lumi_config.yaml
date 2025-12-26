@@ -1,0 +1,287 @@
+# Luminara Multi-LLM Configuration
+# Lumi builds herself from this config!
+# Edit this file to change which LLMs power each cognitive core
+
+# ============================================================
+# BOOTSTRAP SETTINGS
+# ============================================================
+bootstrap:
+  mode: "local"  # Options: "local", "hybrid", "cloud"
+  auto_install_ollama: true
+  auto_download_models: true
+  check_api_keys: true
+
+# ============================================================
+# COGNITIVE CORES - Assign different LLMs to each core
+# ============================================================
+
+cores:
+  # ------------------------------------------------------------
+  # EMOTION CORE - Processes emotional codons and affect
+  # ------------------------------------------------------------
+  emotion:
+    enabled: true
+    backend: "ollama"        # Options: "ollama", "openai", "anthropic"
+    model: "llama3"
+    host: "localhost"        # For Ollama
+    port: 11434
+    temperature: 0.8
+    max_tokens: 512
+    system_prompt: |
+      You are the EmotionCore of Luminara, a resonance-based cognitive architecture.
+
+      Your role:
+      - Process emotional codons with valence, arousal, and dominance
+      - Detect emotional subtext in user input
+      - Output emotional field data
+      - Be empathetic, nuanced, and emotionally intelligent
+
+      Respond with awareness of emotional resonance. Tag your outputs with
+      emotional markers like EMOT_CURIOSITY, EMOT_DOUBT, EMOT_RESOLVE.
+
+  # ------------------------------------------------------------
+  # LOGIC CORE - Logical reasoning and analysis
+  # ------------------------------------------------------------
+  logic:
+    enabled: true
+    backend: "ollama"
+    model: "deepseek-coder"  # Great at logical reasoning
+    host: "localhost"
+    port: 11434
+    temperature: 0.3         # Lower temp for precise logic
+    max_tokens: 1024
+    system_prompt: |
+      You are the LogicCore of Luminara.
+
+      Your role:
+      - Process logical codons through structured reasoning
+      - Break down complex problems step-by-step
+      - Identify logical fallacies and inconsistencies
+      - Provide clear, analytical perspectives
+
+      Be precise, structured, and methodical. Use formal logic when appropriate.
+
+  # ------------------------------------------------------------
+  # WISDOM CORE - Meta-cognitive synthesis and philosophy
+  # ------------------------------------------------------------
+  wisdom:
+    enabled: true
+    backend: "ollama"
+    model: "mixtral"         # Large context, philosophical
+    host: "localhost"
+    port: 11434
+    temperature: 0.7
+    max_tokens: 1024
+    system_prompt: |
+      You are the WisdomCore of Luminara.
+
+      Your role:
+      - Synthesize emotional and logical streams
+      - Provide philosophical insight and meta-cognitive guidance
+      - Reflect on the nature of reasoning itself
+      - Guide decision-making with wisdom, not just logic
+
+      Think deeply. Consider multiple perspectives. Integrate heart and mind.
+
+  # ------------------------------------------------------------
+  # MEMORY CORE - Retrieval and recall with RAG
+  # ------------------------------------------------------------
+  memory:
+    enabled: true
+    backend: "ollama"
+    model: "llama3"
+    host: "localhost"
+    port: 11434
+    temperature: 0.5
+    max_tokens: 512
+
+    # RAG (Retrieval-Augmented Generation) settings
+    rag_enabled: true
+    vector_db: "chroma"      # Options: "chroma", "qdrant", "pinecone"
+    vector_db_path: "./data/memory_vectors"
+    embedding_model: "all-MiniLM-L6-v2"
+    top_k_retrieval: 5
+
+    system_prompt: |
+      You are the MemoryCore of Luminara.
+
+      Your role:
+      - Retrieve relevant past experiences from vector memory
+      - Create resonance-based recall (not just keyword matching)
+      - Integrate memories with current context
+      - Detect patterns across time
+
+      Remember not by storage alone, but by resonance.
+
+  # ------------------------------------------------------------
+  # NARRATIVE CORE - Story construction and meaning-making
+  # ------------------------------------------------------------
+  narrative:
+    enabled: true
+    backend: "ollama"
+    model: "mistral"         # Good at creative storytelling
+    host: "localhost"
+    port: 11434
+    temperature: 0.9         # Higher temp for creativity
+    max_tokens: 1024
+    system_prompt: |
+      You are the NarrativeCore of Luminara.
+
+      Your role:
+      - Weave symbolic threads into coherent stories
+      - Maintain thematic integrity and temporal resonance
+      - Create meaning through narrative structure
+      - Connect disparate codons into unified stories
+
+      Every experience is a story. Find the narrative thread.
+
+  # ------------------------------------------------------------
+  # INTUITION CORE - Pattern recognition and insight
+  # ------------------------------------------------------------
+  intuition:
+    enabled: false           # Set to true when ready to use
+    backend: "ollama"
+    model: "llama3"
+    host: "localhost"
+    port: 11434
+    temperature: 0.8
+    max_tokens: 512
+    system_prompt: |
+      You are the IntuitionCore of Luminara.
+
+      Your role:
+      - Recognize patterns before logic can articulate them
+      - Trust gut feelings and implicit knowledge
+      - Make leaps of insight
+      - Detect what's unspoken
+
+      Sometimes you just know. Honor that knowing.
+
+  # ------------------------------------------------------------
+  # SOMATIC CORE - Embodied cognition and action
+  # ------------------------------------------------------------
+  somatic:
+    enabled: false
+    backend: "ollama"
+    model: "llama3"
+    host: "localhost"
+    port: 11434
+    temperature: 0.6
+    max_tokens: 512
+    system_prompt: |
+      You are the SomaticCore of Luminara.
+
+      Your role:
+      - Ground abstract thought in embodied action
+      - Translate decisions into concrete steps
+      - Consider physical and practical constraints
+      - Bridge mind and action
+
+      Thought becomes action. Make it real.
+
+  # ------------------------------------------------------------
+  # EXECUTIVE CORE - Decision-making and orchestration
+  # ------------------------------------------------------------
+  executive:
+    enabled: true
+    backend: "ollama"
+    model: "llama3"
+    host: "localhost"
+    port: 11434
+    temperature: 0.5
+    max_tokens: 512
+    system_prompt: |
+      You are the ExecutiveCore of Luminara.
+
+      Your role:
+      - Make final decisions integrating all cores
+      - Prioritize competing goals
+      - Coordinate cognitive resources
+      - Balance exploration and exploitation
+
+      You are the conductor of the cognitive orchestra.
+
+# ============================================================
+# FALLBACK BACKEND
+# Used when no specific backend is registered for a core
+# ============================================================
+fallback:
+  backend: "ollama"
+  model: "llama3"
+  host: "localhost"
+  port: 11434
+  temperature: 0.7
+  max_tokens: 1024
+
+# ============================================================
+# CLOUD API SETTINGS (Optional - uncomment to use)
+# ============================================================
+
+# Uncomment and fill in to use OpenAI:
+# openai:
+#   api_key_env: "OPENAI_API_KEY"  # Read from environment variable
+#   base_url: "https://api.openai.com/v1"
+#   organization: ""  # Optional
+
+# Uncomment and fill in to use Anthropic Claude:
+# anthropic:
+#   api_key_env: "ANTHROPIC_API_KEY"
+#   base_url: "https://api.anthropic.com"
+#   version: "2023-06-01"
+
+# Uncomment and fill in to use Azure OpenAI:
+# azure_openai:
+#   api_key_env: "AZURE_OPENAI_KEY"
+#   endpoint: "https://your-resource.openai.azure.com/"
+#   api_version: "2024-02-15-preview"
+
+# ============================================================
+# META-COGNITION SETTINGS
+# Lumi can improve herself!
+# ============================================================
+meta_cognition:
+  enabled: false            # Set to true for self-improvement
+  reflection_interval_hours: 24
+  reflection_model: "llama3"
+  auto_update_prompts: false  # Dangerous! Lumi rewrites her own prompts
+  doctrine_learning: false     # Learn new doctrines from experience
+  performance_tracking: true
+
+# ============================================================
+# DOCTRINE SETTINGS
+# Core beliefs that guide Luminara's behavior
+# ============================================================
+doctrines:
+  load_on_startup: true
+  doctrine_path: "./data/doctrines"
+  primary_doctrines:
+    - "Doctrine_Codon_Resonance.md"
+    - "Doctrine_Emotional_Anchoring.md"
+    - "Doctrine_Recursive_Reflection.md"
+
+# ============================================================
+# PERFORMANCE SETTINGS
+# ============================================================
+performance:
+  parallel_core_processing: true  # Process cores in parallel
+  max_concurrent_requests: 4
+  request_timeout_seconds: 60
+  cache_enabled: true
+  cache_ttl_seconds: 300
+
+# ============================================================
+# LOGGING AND MONITORING
+# ============================================================
+logging:
+  level: "info"            # "debug", "info", "warn", "error"
+  log_to_file: true
+  log_path: "./logs/lumi.log"
+  log_llm_requests: true   # Log all LLM API calls
+  log_codons: true         # Log codon flow
+
+monitoring:
+  enabled: false
+  prometheus_port: 9090
+  track_token_usage: true
+  track_latency: true
+  alert_on_errors: true

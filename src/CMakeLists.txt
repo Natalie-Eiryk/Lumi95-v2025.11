@@ -55,6 +55,8 @@ add_library(lumi_llm
     llm/backends/HFBackend.cpp
     llm/backends/PythonProxyBackend.cpp
     llm/backends/TensorRTBackend.cpp
+    llm/backends/MockLLMBackend.cpp
+    llm/backends/OllamaBackend.cpp
 )
 
 target_include_directories(lumi_llm PUBLIC
@@ -88,6 +90,22 @@ if(Qt6_FOUND)
     target_link_libraries(lumi_interop PUBLIC Qt6::Widgets Qt6::OpenGL)
 endif()
 
+# Create physics library
+add_library(lumi_physics
+    physics/AttractorLandscape.cpp
+)
+
+target_include_directories(lumi_physics PUBLIC
+    ${CMAKE_SOURCE_DIR}/include
+)
+
+target_link_libraries(lumi_physics PUBLIC lumi_base)
+
+# Link PhysX if found
+if(PhysX5_FOUND)
+    target_link_libraries(lumi_physics PUBLIC PhysX::PhysX)
+endif()
+
 # Create UI library
 add_library(lumi_ui
     ui/LumiGUI.cpp
@@ -99,6 +117,36 @@ target_include_directories(lumi_ui PUBLIC
 
 target_link_libraries(lumi_ui PUBLIC lumi_interop)
 
+# GUI library for MainCRTWindow (only if Qt6 is available)
+if(Qt6_FOUND)
+    add_library(lumi_gui
+        ${CMAKE_SOURCE_DIR}/gui/Video_Pipeline/MainCRTWindow.cpp
+        ${CMAKE_SOURCE_DIR}/gui/Video_Pipeline/GalaxyMapWidget.cpp
+    )
+
+    target_include_directories(lumi_gui PUBLIC
+        ${CMAKE_SOURCE_DIR}/include
+        ${CMAKE_SOURCE_DIR}/gui
+    )
+
+    # Qt MOC processing for Q_OBJECT macro
+    set_target_properties(lumi_gui PROPERTIES
+        AUTOMOC ON
+        CXX_STANDARD 17
+        CXX_STANDARD_REQUIRED ON
+    )
+
+    target_link_libraries(lumi_gui PUBLIC
+        Qt6::Widgets
+        Qt6::Core
+        Qt6::Gui
+        lumi_base
+        lumi_physics
+    )
+else()
+    message(WARNING "Qt6 not found - GUI will not be built")
+endif()
+
 # Main executable - Lumi286
 add_executable(Lumi286
     app/Lumi286.cpp
@@ -106,6 +154,7 @@ add_executable(Lumi286
 
 target_include_directories(Lumi286 PRIVATE
     ${CMAKE_SOURCE_DIR}/include
+    ${CMAKE_SOURCE_DIR}/gui
 )
 
 target_link_libraries(Lumi286 PRIVATE
@@ -115,7 +164,16 @@ target_link_libraries(Lumi286 PRIVATE
     lumi_llm
     lumi_interop
     lumi_ui
+    lumi_physics
 )
+
+if(Qt6_FOUND)
+    target_link_libraries(Lumi286 PRIVATE lumi_gui)
+    target_compile_definitions(Lumi286 PRIVATE LUMI_HAS_QT6=1)
+    message(STATUS "[Lumi] Qt6 GUI enabled for Lumi286")
+else()
+    message(STATUS "[Lumi] Building Lumi286 in console-only mode (Qt6 not found)")
+endif()
 
 # Link vcpkg packages
 if(yaml-cpp_FOUND)
@@ -168,5 +226,68 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/main/main.cpp")
 
     if(GTest_FOUND)
         target_link_libraries(lumi_app PRIVATE GTest::gtest)
+    endif()
+endif()
+
+# Test executable for attractor physics
+if(EXISTS "${CMAKE_SOURCE_DIR}/examples/test_attractor_physics.cpp")
+    add_executable(test_attractor_physics
+        ${CMAKE_SOURCE_DIR}/examples/test_attractor_physics.cpp
+    )
+
+    target_include_directories(test_attractor_physics PRIVATE
+        ${CMAKE_SOURCE_DIR}/include
+    )
+
+    target_link_libraries(test_attractor_physics PRIVATE
+        lumi_base
+        lumi_physics
+    )
+endif()
+
+# Full pipeline example - User→Physics→LLM→Response
+if(EXISTS "${CMAKE_SOURCE_DIR}/examples/full_pipeline_example.cpp")
+    add_executable(full_pipeline_example
+        ${CMAKE_SOURCE_DIR}/examples/full_pipeline_example.cpp
+    )
+
+    target_include_directories(full_pipeline_example PRIVATE
+        ${CMAKE_SOURCE_DIR}/include
+    )
+
+    target_link_libraries(full_pipeline_example PRIVATE
+        lumi_base
+        lumi_physics
+        lumi_llm
+    )
+endif()
+
+# Ollama pipeline example - Real LLM integration (FREE!)
+if(EXISTS "${CMAKE_SOURCE_DIR}/examples/ollama_pipeline_example.cpp")
+    add_executable(ollama_pipeline_example
+        ${CMAKE_SOURCE_DIR}/examples/ollama_pipeline_example.cpp
+    )
+
+    target_include_directories(ollama_pipeline_example PRIVATE
+        ${CMAKE_SOURCE_DIR}/include
+    )
+
+    target_link_libraries(ollama_pipeline_example PRIVATE
+        lumi_base
+        lumi_physics
+        lumi_llm
+    )
+
+    # Ensure Ollama is installed and model is pulled
+    if(LUMI_OLLAMA_AVAILABLE)
+        message(STATUS "[Lumi] Ollama integration enabled for ollama_pipeline_example")
+
+        # Auto-pull default model (llama3.2)
+        lumi_sg_ensure_ollama_model("llama3.2")
+
+        # Start Ollama service
+        lumi_sg_start_ollama()
+    else()
+        message(STATUS "[Lumi] Ollama not available - example will be built but requires manual setup")
     endif()
 endif()

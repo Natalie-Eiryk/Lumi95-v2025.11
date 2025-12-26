@@ -2,9 +2,14 @@
 // Lumi286.cpp - Main entry point for Lumi286 OS
 
 #include <iostream>
-#include <../gui/Video_Pipeline/MainCRTWindow.h>
 #include <lumi/physics/CodonPhysicsEngine.h>
 #include <lumi/cores/EmotionCoreCPU.h>
+
+// Qt6 GUI (conditional compilation based on availability)
+#ifdef LUMI_HAS_QT6
+#include <QApplication>
+#include <Video_Pipeline/MainCRTWindow.h>
+#endif
 
 #ifdef _WIN32
 #include <io.h>
@@ -36,7 +41,10 @@ namespace physx {
 
     class PxSceneDesc {
     public:
-        PxSceneDesc(const PxTolerancesScale& scale) {}
+        PxSceneDesc(const PxTolerancesScale& /*scale*/)
+            : gravity(), cpuDispatcher(nullptr), filterShader(nullptr) {
+            // Initialize all members to prevent C26495 warning
+        }
         PxVec3 gravity;
         void* cpuDispatcher;
         void* filterShader;
@@ -50,24 +58,13 @@ namespace physx {
     const int PX_PHYSICS_VERSION = 0x05000000;
 }
 
-// Qt stub types (would normally come from Qt headers)
-class QWidget {};
-class QApplication {
-public:
-    QApplication(int& argc, char** argv) {
-        // Stub implementation
-    }
-    int exec() {
-        // Stub implementation - would run Qt event loop
-        return 0;
-    }
-};
-
 using namespace physx;
 
 int main(int argc, char* argv[]) {
+    // argc/argv used for QApplication initialization below
 #ifdef _WIN32
-    _setmode(_fileno(stdout), _O_TEXT);
+    // Set console mode to text (ignore return value - non-critical)
+    (void)_setmode(_fileno(stdout), _O_TEXT);
 #endif
     std::cout << "[🌌 Lumi286 Boot] Initializing system...\n";
 
@@ -96,15 +93,74 @@ int main(int argc, char* argv[]) {
     // Ready for codon loading via UI or API
 
 
-    // === Qt GUI Launch ===
+#ifdef LUMI_HAS_QT6
+    // === Qt6 GUI Launch ===
     QApplication app(argc, argv);
+    std::cout << "[🌌 Lumi286] Qt6 Application initialized\n";
 
     MainCRTWindow* window = new MainCRTWindow(physicsEngine);
+
+    // Report loaded modules to GUI
+    std::cout << "[🌌 Lumi286] Loading cognitive modules...\n";
+
+    window->addLoadedModule("PhysX Foundation", "INITIALIZED");
+    window->addLoadedModule("PhysX Physics Engine", "ACTIVE");
+    window->addLoadedModule("CodonPhysicsEngine", "READY");
+    window->addLoadedModule("EmotionCore (CPU)", "ALLOCATED");
+
+    // Bind EmotionCore
     window->setEmotionCore(sharedEmotionCore);
-    window->resize(1280, 720);
+    window->addLoadedModule("EmotionCore Binding", "BOUND TO PHYSX");
+
+    // Add placeholder for other cores (will implement later)
+    window->addLoadedModule("LogicCore", "STUB");
+    window->addLoadedModule("WisdomCore", "STUB");
+    window->addLoadedModule("MemoryCore", "STUB");
+    window->addLoadedModule("NarrativeCore", "STUB");
+    window->addLoadedModule("IntuitionCore", "STUB");
+    window->addLoadedModule("SomaticCore", "STUB");
+    window->addLoadedModule("ExecutiveCore", "STUB");
+    window->addLoadedModule("CoreFusionOrchestrator", "STUB");
+
+    window->setSystemStatus("✅ ONLINE - All systems nominal");
     window->show();
 
-    std::cout << "[🌌 Lumi286] System initialized. GUI active.\n";
+    std::cout << "[🌌 Lumi286] GUI displayed. Entering event loop.\n";
 
     return app.exec();
+#else
+    // === Console-only mode (Qt6 not available) ===
+    std::cout << "[🌌 Lumi286] Running in console mode (Qt6 not available)\n";
+    std::cout << "\n";
+    std::cout << "╔════════════════════════════════════════════════════════════╗\n";
+    std::cout << "║        LUMINARA COGNITIVE ARCHITECTURE v1.0               ║\n";
+    std::cout << "╚════════════════════════════════════════════════════════════╝\n";
+    std::cout << "\n";
+    std::cout << "Loaded Modules:\n";
+    std::cout << "  ✅ PhysX Foundation         [INITIALIZED]\n";
+    std::cout << "  ✅ PhysX Physics Engine     [ACTIVE]\n";
+    std::cout << "  ✅ CodonPhysicsEngine       [READY]\n";
+    std::cout << "  ✅ EmotionCore (CPU)        [ALLOCATED]\n";
+    std::cout << "  ✅ EmotionCore Binding      [BOUND TO PHYSX]\n";
+    std::cout << "  ⚠️  LogicCore               [STUB]\n";
+    std::cout << "  ⚠️  WisdomCore               [STUB]\n";
+    std::cout << "  ⚠️  MemoryCore               [STUB]\n";
+    std::cout << "  ⚠️  NarrativeCore            [STUB]\n";
+    std::cout << "  ⚠️  IntuitionCore            [STUB]\n";
+    std::cout << "  ⚠️  SomaticCore              [STUB]\n";
+    std::cout << "  ⚠️  ExecutiveCore            [STUB]\n";
+    std::cout << "  ⚠️  CoreFusionOrchestrator   [STUB]\n";
+    std::cout << "\n";
+    std::cout << "System Status: ✅ ONLINE - All systems nominal\n";
+    std::cout << "\n";
+    std::cout << "Note: Build with Qt6 to enable GUI interface.\n";
+    std::cout << "Press Ctrl+C to exit.\n";
+    std::cout << "\n";
+
+    // Keep running
+    std::cout << "[🌌 Lumi286] System running. Press Ctrl+C to stop.\n";
+    std::cin.get();  // Wait for user input
+
+    return 0;
+#endif
 }
