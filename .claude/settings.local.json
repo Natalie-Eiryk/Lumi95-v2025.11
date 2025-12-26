@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git rev-parse:*)",
+      "Bash(deps/vcpkg/vcpkg.exe install:*)",
+      "Bash(git checkout:*)",
+      "Bash(cmake --build:*)",
+      "Bash(cat out/build/lumi-first-time/CMakeCache.txt)",
+      "Bash(grep:*)",
+      "Bash(cat:*)",
+      "Bash(find:*)",
+      "Bash(echo:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File F:/Lumi95/fix_generator.ps1)",
+      "Bash(where.exe:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(dir scriptsbootstrap_vcpkg.ps1)",
+      "Bash(dir depsvcpkgvcpkg.exe)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -S . -B build)",
+      "Bash(\"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe\" -S . -B build -G \"Visual Studio 17 2022\" -A x64)"
+    ]
+  }
+}

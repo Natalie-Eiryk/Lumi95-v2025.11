@@ -1,0 +1,11 @@
+{
+  "name": "lumi286",
+  "version-string": "1.0",
+  "builtin-baseline": "64e1fbee7d9f40eab5d112aaff648c4dcffe9e47",
+  "dependencies": [
+    "yaml-cpp",
+    "nlohmann-json",
+    "gtest",
+    "qtbase"
+  ]
+}

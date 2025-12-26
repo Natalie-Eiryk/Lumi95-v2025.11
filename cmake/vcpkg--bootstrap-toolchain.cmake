@@ -164,15 +164,7 @@ if(NOT _baseline_ok)
     "or set builtin-baseline to a valid vcpkg commit that contains versions/baseline.json.\n"
   )
 endif()
-execute_process(
-  COMMAND "${_vcpkg_bin}" install
-          --x-manifest-root="${CMAKE_SOURCE_DIR}"
-          --triplet "${VCPKG_TARGET_TRIPLET}"
-          --clean-after-build
-          --disable-metrics
-  WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}"
-  RESULT_VARIABLE _inst_ec
-)
+
   # Bootstrap
   if(WIN32)
     set(_bootstrap "${_vcpkg_root}/bootstrap-vcpkg.bat")
